@@ -12,11 +12,18 @@ permissions:
 
 jobs:
   zbierz:
-    runs-on: ubuntu-latest
+    # ubuntu-latest przechodzi w październiku 2026 na Ubuntu 26 — przypinamy wersję, żeby nic się nie zmieniło 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - name: Uruchom robota (OLX przez curl)
+      - name: Sprawdź narzędzia
+        run: |
+          python3 --version
+          curl --version | head -1
+
+      - name: Uruchom robota (OLX przez curl, z drogami awaryjnymi)
         run: python3 scrape.py
 
       - name: Zapisz zmiany w repozytorium
@@ -30,3 +37,8 @@ jobs:
             git commit -m "Oferty: aktualizacja $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      - name: Podsumowanie
+        if: always()
+        run: |
+          python3 -c "import json;d=json.load(open('offers.json',encoding='utf-8'));print('Ofert:',d.get('count'),'| wygenerowano:',d.get('generated_at'),'| zrodlo:',d.get('source'))"
