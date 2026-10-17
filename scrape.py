@@ -41,6 +41,7 @@ BAD = re.compile(r"uszkodz|na cz[eę][śs]ci|cz[eę][śs]ci|anglik|rozbity|powyp
                  r"skrzynia na sprzeda|katalizator|felgi|opony|zderzak|reflektor|zaczep|baga[żz]nik dachowy", re.I)
 HYB = re.compile(r"hybryd|hsd|hybrid|prius", re.I)
 LPG = re.compile(r"\blpg\b|\bgpl\b|\bgaz\b|gazie|gazowa|gazowy|prins|brc|stag|lovato|tartarini", re.I)
+OTHER = re.compile(r"\bkia\b|\bhyundai\b|skoda|škoda|volkswagen|\bvw\b|\bford\b|\bopel\b|renault|peugeot|citro[eë]n|\bbmw\b|\baudi\b|mercedes|\bnissan\b|\bhonda\b|\bmazda\b|\bseat\b|\bfiat\b|\bvolvo\b|dacia|chevrolet|mitsubishi|suzuki|subaru|\bjeep\b|\bmini\b|\bsmart\b|\blancia\b|\bsaab\b|chrysler|\bdodge\b|\btesla\b|\bcupra\b|\bbyd\b", re.I)
 
 T0 = time.time()
 
@@ -217,7 +218,7 @@ def parse_olx(o, hint):
         return None                                    # tylko samochody (kategorie OLX mają różne ID)
     title = (o.get("title") or "").strip()
     url = o.get("url") or ""
-    if BAD.search(title):
+    if BAD.search(title) or OTHER.search(title):
         return None
     price = num(param(o, "price"))
     if not price or price < 5000 or price > 60000:

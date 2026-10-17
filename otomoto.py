@@ -48,6 +48,7 @@ RE_BAD = re.compile(r"uszkodz|na cz[eę][śs]ci|anglik|rozbity|powypadkowy|katal
                     r"zderzak|reflektor|zaczep", re.I)
 RE_HYB = re.compile(r"hybryd|hsd|hybrid|prius", re.I)
 RE_LPG = re.compile(r"\blpg\b|\bgpl\b|\bgaz\b|gazie|gazowa|gazowy|prins|brc|stag|lovato|tartarini", re.I)
+RE_OTHER = re.compile(r"\bkia\b|\bhyundai\b|skoda|škoda|volkswagen|\bvw\b|\bford\b|\bopel\b|renault|peugeot|citro[eë]n|\bbmw\b|\baudi\b|mercedes|\bnissan\b|\bhonda\b|\bmazda\b|\bseat\b|\bfiat\b|\bvolvo\b|dacia|chevrolet|mitsubishi|suzuki|subaru|\bjeep\b|\bmini\b|\bsmart\b|\blancia\b|\bsaab\b|chrysler|\bdodge\b|\btesla\b|\bcupra\b|\bbyd\b", re.I)
 RE_LINK = re.compile(r"https://www\.otomoto\.pl/[a-z-]+/oferta/[a-z0-9-]+-ID[0-9A-Za-z]+\.html")
 
 T0 = time.time()
@@ -131,7 +132,7 @@ def parse_ad(html, hint):
     url = ad.get("url") or ""
     if not title or not url:
         return None
-    if RE_BAD.search(title):
+    if RE_BAD.search(title) or RE_OTHER.search(title):
         return None
 
     price = None
