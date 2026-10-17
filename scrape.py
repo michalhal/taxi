@@ -37,11 +37,31 @@ QUERIES = [
     ("toyota prius plug-in", "Prius Plug-in"),
 ]
 
-BAD = re.compile(r"uszkodz|na cz[eę][śs]ci|cz[eę][śs]ci|anglik|rozbity|powypadkowy|silnik na sprzeda|"
-                 r"skrzynia na sprzeda|katalizator|felgi|opony|zderzak|reflektor|zaczep|baga[żz]nik dachowy", re.I)
+BAD = re.compile(r"na cz[eę][śs]ci|\bcz[eę][śs]ci\b|kupno cz[eę][śs]ci|sprzedam cz[eę][śs]ci|silnik na sprzeda|skrzynia na sprzeda|katalizator", re.I)
 HYB = re.compile(r"hybryd|hsd|hybrid|prius", re.I)
 LPG = re.compile(r"\blpg\b|\bgpl\b|\bgaz\b|gazie|gazowa|gazowy|prins|brc|stag|lovato|tartarini", re.I)
 OTHER = re.compile(r"\bkia\b|\bhyundai\b|skoda|škoda|volkswagen|\bvw\b|\bford\b|\bopel\b|renault|peugeot|citro[eë]n|\bbmw\b|\baudi\b|mercedes|\bnissan\b|\bhonda\b|\bmazda\b|\bseat\b|\bfiat\b|\bvolvo\b|dacia|chevrolet|mitsubishi|suzuki|subaru|\bjeep\b|\bmini\b|\bsmart\b|\blancia\b|\bsaab\b|chrysler|\bdodge\b|\btesla\b|\bcupra\b|\bbyd\b", re.I)
+
+DMG = re.compile(
+    r"uszkodz|powypadk|po wypadk|po dzwon|\bdzwon(ie|u|a|y)\b|po kolizji|\bkolizj|"
+    r"rozbity|rozbite|rozbit|anglik|do naprawy|do remontu|nie je[żz]dzi|nie jezdzi|"
+    r"szkoda ca[łl]kowit|\bszkod[ay]\b|zalany|spalon|zatart|\bwyciek|\bawari|\busterk|usterek\b|"
+    r"\bdefekt|bity|bita|st[łl]uczk|wymaga naprawy|wymaga remontu|brak dowodu|bez dowodu|"
+    r"bez papier|niekompletny|do lakierowania|na cz[eę][śs]ci", re.I)
+NEG = re.compile(
+    r"bezwypadkow\w*|nieuszkodzon\w*|bezkolizyjn\w*|bezszkodow\w*|bezawaryjn\w*|"
+    r"bez ?(żadnych |jakichkolwiek )?(wypadk|uszkodz|szkod|koliz|usterek|usterek|defekt)\w*|"
+    r"nie\s?(ma |posiada )?(najmniejszych |żadnych |jakichkolwiek )?(uszkodz|usterek|defekt|wyciek|awari)\w*|"
+    r"brak\s?(jakichkolwiek |żadnych )?(uszkodz|usterek|defekt)\w*|"
+    r"nie\s?bit\w*|nie by[łl][ao]?\s?bit\w*", re.I)
+
+def damaged(*parts):
+    """True, gdy w tytule/opisie jest mowa o uszkodzeniu (z pominięciem zaprzeczeń)."""
+    t = " ".join(str(p or "") for p in parts)
+    t = NEG.sub(" ", t)
+    return bool(DMG.search(t))
+
+
 
 T0 = time.time()
 
@@ -189,18 +209,22 @@ def koszt(cena, lpg):
 
 
 def model_of(title, description, hint):
-    blob = (title + " " + (description or ""))
-    if re.search(r"prius\s*\+|prius plus|prius\+", blob, re.I):
-        return "Prius+"
-    if re.search(r"plug-?in|phev", blob, re.I):
-        return "Prius Plug-in"
-    if re.search(r"lexus", blob, re.I):
-        return "Lexus CT"
-    if re.search(r"prius", blob, re.I):
-        return "Prius"
-    if re.search(r"auris", blob, re.I):
-        return "Auris Hybrid"
-    return hint or "Hybryda"
+    """Model z tytułu; opis tylko gdy tytuł nic nie mówi (tytuł bywa mylący)."""
+    def pick(blob):
+        if not blob:
+            return None
+        if re.search(r"prius\s*\+|prius plus|prius\+|prius\s*v\b|prius verso", blob, re.I):
+            return "Prius+"
+        if re.search(r"plug-?in|phev", blob, re.I):
+            return "Prius Plug-in"
+        if re.search(r"lexus|\bct\s?200", blob, re.I):
+            return "Lexus CT"
+        if re.search(r"auris", blob, re.I):
+            return "Auris Hybrid"
+        if re.search(r"prius", blob, re.I):
+            return "Prius"
+        return None
+    return pick(title) or pick(description or "") or hint or "Hybryda"
 
 
 def img_fix(link):
@@ -212,13 +236,20 @@ def img_fix(link):
     return base + ";s=400x300"
 
 
+DMG_DROP = set()
+
+
 def parse_olx(o, hint):
     pp = {p.get("key") for p in (o.get("params") or [])}
     if not ("milage" in pp and "year" in pp and ("petrol" in pp or "enginesize" in pp)):
         return None                                    # tylko samochody (kategorie OLX mają różne ID)
     title = (o.get("title") or "").strip()
     url = o.get("url") or ""
+    desc = o.get("description") or ""
     if BAD.search(title) or OTHER.search(title):
+        return None
+    if damaged(title, desc):
+        DMG_DROP.add("olx-" + str(o.get("id") or "").strip())
         return None
     price = num(param(o, "price"))
     if not price or price < 5000 or price > 60000:
@@ -326,6 +357,10 @@ def main():
         sys.exit(0)
 
     all_o = merge(all_o, OUT)
+    if DMG_DROP:
+        before = len(all_o)
+        all_o = [o for o in all_o if o["id"] not in DMG_DROP]
+        print("[OLX] usunięto uszkodzonych/powypadkowych: %d" % (before - len(all_o)))
     order = {"in": 0, "near": 1, "out": 2}
     all_o.sort(key=lambda o: (order.get(o.get("budget"), 3), -(o.get("year") or 0)))
     data = {"generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

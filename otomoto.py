@@ -44,11 +44,31 @@ MODELS = [
 
 FILTERS = "search%5Bfilter_float_price%3Ato%5D=30000&search%5Bfilter_enum_fuel_type%5D%5B0%5D=hybrid"
 
-RE_BAD = re.compile(r"uszkodz|na cz[eę][śs]ci|anglik|rozbity|powypadkowy|katalizator|felgi|opony|"
-                    r"zderzak|reflektor|zaczep", re.I)
+RE_BAD = re.compile(r"na cz[eę][śs]ci|\bcz[eę][śs]ci\b|kupno cz[eę][śs]ci|sprzedam cz[eę][śs]ci|silnik na sprzeda|skrzynia na sprzeda|katalizator", re.I)
 RE_HYB = re.compile(r"hybryd|hsd|hybrid|prius", re.I)
 RE_LPG = re.compile(r"\blpg\b|\bgpl\b|\bgaz\b|gazie|gazowa|gazowy|prins|brc|stag|lovato|tartarini", re.I)
 RE_OTHER = re.compile(r"\bkia\b|\bhyundai\b|skoda|škoda|volkswagen|\bvw\b|\bford\b|\bopel\b|renault|peugeot|citro[eë]n|\bbmw\b|\baudi\b|mercedes|\bnissan\b|\bhonda\b|\bmazda\b|\bseat\b|\bfiat\b|\bvolvo\b|dacia|chevrolet|mitsubishi|suzuki|subaru|\bjeep\b|\bmini\b|\bsmart\b|\blancia\b|\bsaab\b|chrysler|\bdodge\b|\btesla\b|\bcupra\b|\bbyd\b", re.I)
+
+DMG = re.compile(
+    r"uszkodz|powypadk|po wypadk|po dzwon|\bdzwon(ie|u|a|y)\b|po kolizji|\bkolizj|"
+    r"rozbity|rozbite|rozbit|anglik|do naprawy|do remontu|nie je[żz]dzi|nie jezdzi|"
+    r"szkoda ca[łl]kowit|\bszkod[ay]\b|zalany|spalon|zatart|\bwyciek|\bawari|\busterk|usterek\b|"
+    r"\bdefekt|bity|bita|st[łl]uczk|wymaga naprawy|wymaga remontu|brak dowodu|bez dowodu|"
+    r"bez papier|niekompletny|do lakierowania|na cz[eę][śs]ci", re.I)
+NEG = re.compile(
+    r"bezwypadkow\w*|nieuszkodzon\w*|bezkolizyjn\w*|bezszkodow\w*|bezawaryjn\w*|"
+    r"bez ?(żadnych |jakichkolwiek )?(wypadk|uszkodz|szkod|koliz|usterek|usterek|defekt)\w*|"
+    r"nie\s?(ma |posiada )?(najmniejszych |żadnych |jakichkolwiek )?(uszkodz|usterek|defekt|wyciek|awari)\w*|"
+    r"brak\s?(jakichkolwiek |żadnych )?(uszkodz|usterek|defekt)\w*|"
+    r"nie\s?bit\w*|nie by[łl][ao]?\s?bit\w*", re.I)
+
+def damaged(*parts):
+    """True, gdy w tytule/opisie jest mowa o uszkodzeniu (z pominięciem zaprzeczeń)."""
+    t = " ".join(str(p or "") for p in parts)
+    t = NEG.sub(" ", t)
+    return bool(DMG.search(t))
+
+
 RE_LINK = re.compile(r"https://www\.otomoto\.pl/[a-z-]+/oferta/[a-z0-9-]+-ID[0-9A-Za-z]+\.html")
 
 T0 = time.time()
@@ -132,7 +152,10 @@ def parse_ad(html, hint):
     url = ad.get("url") or ""
     if not title or not url:
         return None
+    desc = ad.get("description") or ""
     if RE_BAD.search(title) or RE_OTHER.search(title):
+        return None
+    if damaged(title, desc, ad.get("damaged") and "uszkodzony"):
         return None
 
     price = None
