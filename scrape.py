@@ -22,8 +22,8 @@ KATOWICE = (50.2649, 19.0238)
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "offers.json")
 
-BAZA_KOSZTY = 5420      # OC taxi 2400 + pakiet startowy 1500 + formalnosci taxi+badanie 741 + wyposazenie 400 + rejestracja/przeglad 379
-LPG_KOSZT = 4450        # montaz 4200 + legalizacja 250
+BAZA_KOSZTY = 4653      # OC taxi 3000 + pakiet startowy 1000 + badanie TAXI 213 + rejestracja i wpis TAXI 160 + wyposazenie 280
+LPG_KOSZT = 5000        # montaz 4900 + badanie gazowe 96
 M48, M60 = 0.024952, 0.020793
 
 BUDGET_SECONDS = 240    # łączny limit czasu całego zbierania
@@ -290,6 +290,8 @@ def merge(new, old_path):
     for oid, o in old.items():
         if oid not in ids:
             o = dict(o)
+            if o.get("img"):
+                o["img"] = img_fix(o["img"])
             o["missing_since"] = o.get("missing_since") or now
             new.append(o)
     return new
