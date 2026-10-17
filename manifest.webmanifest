@@ -1,0 +1,18 @@
+{
+  "name": "Znajdź taksówkę — hybrydy na Uber/Bolt",
+  "short_name": "Znajdź taksówkę",
+  "description": "Hybrydy na taxi: koszt całkowity z ubezpieczeniem, raty 48/60 mc, obserwowane i skontaktowane oferty",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f1f5f9",
+  "theme_color": "#0f172a",
+  "lang": "pl",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
