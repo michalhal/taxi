@@ -1,0 +1,32 @@
+# Robot odświeżający oferty co 4 godziny.
+# Ten plik musi leżeć w repozytorium pod ścieżką: .github/workflows/update.yml
+name: Aktualizacja ofert (co 4 h)
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'      # 00:23, 04:23, 08:23, 12:23, 16:23, 20:23 (UTC)
+  workflow_dispatch:            # przycisk „Run workflow" do ręcznego uruchomienia
+
+permissions:
+  contents: write
+
+jobs:
+  zbierz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Uruchom robota (OLX przez curl)
+        run: python3 scrape.py
+
+      - name: Zapisz zmiany w repozytorium
+        run: |
+          git config user.name "znajdz-taksowke-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add offers.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian — nic do commita."
+          else
+            git commit -m "Oferty: aktualizacja $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
