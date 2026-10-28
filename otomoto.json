@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T11:41:22+00:00",
+ "generated_at": "2026-10-28T21:57:24+00:00",
  "source": "OTOMOTO (scraper)",
  "count": 33,
  "cost_model": {
@@ -79,7 +79,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -173,7 +173,7 @@
    "region": "",
    "dist_km": null,
    "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjNkdjUxNXNyZHo3OS1PVE9NT1RPUEwiLCJ3IjpbeyJmbiI6IndnNGducXA2eTFmLU9UT01PVE9QTCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.6ATe9yRBlUbIg0iZ7Azsgmuw1pL5fsJuCraGMcwTY-k/image;s=400x300",
-   "created": "2026-10-13T12:05:35Z",
+   "created": "2026-10-28T13:05:00Z",
    "valid_to": null,
    "business": false,
    "koszt": {
@@ -192,7 +192,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T19:46:45+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": 18000
   },
   {
@@ -304,7 +304,44 @@
    },
    "budget": "in",
    "first_seen": "2026-10-26T11:35:20+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "oto-6151122128",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IhtRe.html",
+   "title": "Toyota Prius 1.8 HSD Luna",
+   "model": "Prius",
+   "price": 16900,
+   "year": 2011,
+   "mileage": 196000,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBtMzhndXlnaWRsNTEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.mV18MGJCKhufCo535GhU4Fw-vRuoklPiNqTBsMopNng/image;s=400x300",
+   "created": "2026-10-28T16:10:00Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 26553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     663,
+     737,
+     787
+    ],
+    "r60": [
+     552,
+     614,
+     656
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-10-17T19:46:45+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -344,44 +381,6 @@
    "last_seen": "2026-10-27T11:01:28+00:00",
    "prev_price": 18900,
    "missing_since": "2026-10-27T21:32:14+00:00"
-  },
-  {
-   "id": "oto-6151122128",
-   "src": "OTOMOTO",
-   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IhtRe.html",
-   "title": "Toyota Prius 1.8 HSD Luna",
-   "model": "Prius",
-   "price": 16900,
-   "year": 2011,
-   "mileage": 196000,
-   "fuel": "hybrid",
-   "lpg": false,
-   "city": "",
-   "region": "",
-   "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBtMzhndXlnaWRsNTEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.mV18MGJCKhufCo535GhU4Fw-vRuoklPiNqTBsMopNng/image;s=400x300",
-   "created": "2026-10-13T15:10:45Z",
-   "valid_to": null,
-   "business": false,
-   "koszt": {
-    "koszt": 26553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     663,
-     737,
-     787
-    ],
-    "r60": [
-     552,
-     614,
-     656
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-10-17T19:46:45+00:00",
-   "last_seen": "2026-10-25T20:00:24+00:00",
-   "prev_price": null,
-   "missing_since": "2026-10-26T11:35:20+00:00"
   },
   {
    "id": "oto-6151175350",
@@ -455,7 +454,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": 29850
   },
   {
@@ -492,7 +491,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": 22500
   },
   {
@@ -529,7 +528,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -566,7 +565,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-20T20:56:00+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -603,7 +602,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T19:46:45+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -640,7 +639,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": 22000
   },
   {
@@ -826,7 +825,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-25T20:00:24+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -1053,7 +1052,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
@@ -1090,7 +1089,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-21T20:57:17+00:00",
-   "last_seen": "2026-10-28T11:41:22+00:00",
+   "last_seen": "2026-10-28T21:57:24+00:00",
    "prev_price": null
   },
   {
