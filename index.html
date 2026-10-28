@@ -154,6 +154,14 @@ h1{font-size:16px;margin:0;font-weight:800;letter-spacing:-.2px;flex:1;white-spa
 .pack .nm b{display:block;font-size:13.5px;letter-spacing:-.1px}
 .pack .nm b.c2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;white-space:normal;line-height:1.25}
 .pack .nm span{font-size:11px;color:var(--mut)}
+.pack .chev{flex:0 0 auto;width:22px;height:22px;display:grid;place-items:center;color:#94a3b8;transition:transform .18s ease}
+.pack .chev svg{display:block}
+.pack.closed .chev{transform:rotate(-90deg)}
+.pack .rows{display:block}
+.pack.closed .rows{display:none}
+.pack .ph:active{background:#f8fafc}
+.pack .cnt{font-size:11px;font-weight:800;color:#0f172a;background:#f1f5f9;border-radius:8px;padding:3px 7px;white-space:nowrap;flex:0 0 auto}
+.pack .cnt.full{background:#d1fae5;color:#047857}
 .btn-add{border:0;border-radius:9px;font-size:11px;font-weight:800;padding:7px 10px;white-space:nowrap;cursor:pointer;
   background:var(--nav);color:#fff}
 .btn-add.on{background:var(--ok2);color:#047857;box-shadow:inset 0 0 0 1px #a7f3d0}
@@ -1393,8 +1401,8 @@ function init(){
   }
   const v=el('ver');if(v)v.textContent='v'+APPVER;
   render();
-  loadCloud().then(function(k){CLOUD_AT=Date.now();if(k){save();render();}});
-  if(srcOn('otomoto'))loadOtomoto().then(function(k){if(k){save();render();}});
+  loadCloud().then(function(k){CLOUD_AT=Date.now();if(k)save();render();});
+  if(srcOn('otomoto'))loadOtomoto().then(function(k){if(k)save();render();});
   scheduleCloud();
   if(syncReady())syncNow(true);
   window.addEventListener('pagehide',function(){ST.lastVisit=Date.now();save();});
@@ -1411,7 +1419,13 @@ function init(){
 document.addEventListener('DOMContentLoaded',init);
 
 /* ===================== v7 UI ===================== */
-let VIEW='offers',MSTAB='cat',CMP=[],QMODEL='',QPACK='';
+let VIEW='offers',MSTAB='cat',CMP=[],QMODEL='',QPACK='',PACKOPEN={};
+function packIsOpen(pid,def){return (pid in PACKOPEN)?PACKOPEN[pid]:def;}
+function togglePack(pid,el){
+  const box=el.parentNode;if(!box)return;
+  const closed=box.classList.toggle('closed');
+  PACKOPEN[pid]=!closed;
+}
 const NAVITEMS=[['offers','🚗','Oferty'],['models','📚','Modele'],['market','📈','Rynek'],['more','☰','Więcej']];
 const TTITLE={offers:'Oferty',models:'Modele',market:'Rynek',more:'Więcej'};
 const TABS=[['all','Wszystkie'],['new','🆕 Nowe'],['price','💸 Zmiana ceny'],['deal','🎯 Okazje'],['fav','★ Ulubione'],['con','📞 Skontaktowane'],['dis','🚫 Odrzucone']];
@@ -1479,7 +1493,9 @@ function renderChrome(){
   }
   const hs=el('hsub');
   if(hs){
-    if(VIEW==='offers')hs.innerHTML=c.all+' ofert · '+(ST.filters.watchOnly?('<b class="am">⭐ '+countWatchedOffers()+' z obserwowanych</b>'):('wszystkie'+(sumWatch()?(' · ⭐ '+sumWatch()):'')))
+    if(VIEW==='offers')hs.innerHTML=(ST.filters.watchOnly
+        ?('<b class="am">⭐ '+countWatchedOffers()+' z obserwowanych</b> · z '+c.all+' wszystkich')
+        :(c.all+' ofert'+(sumWatch()?(' · ⭐ '+sumWatch()+' modeli w obserwowanych'):'')))
       +' · '+((ST.lastRefresh.at)?d2(ST.lastRefresh.at):'—');
     else if(VIEW==='models')hs.innerHTML='Katalog '+allModels().length+' modeli · obserwujesz <b class="am">'+sumWatch()+'</b>';
     else if(VIEW==='market')hs.innerHTML=sumWatch()+' obserwowanych modeli · dane z '+(ST.lastRefresh.at?d2(ST.lastRefresh.at):'—');
@@ -1578,10 +1594,11 @@ function renderOffers(){
   const sortOpts=[['deal','🎯 Najlepsza okazja'],['z100','⛽ Najtańsze 100 km'],['koszt','💰 Koszt całkowity'],
     ['r60','📉 Rata 60 mc'],['r48','📉 Rata 48 mc'],['new','🆕 Najnowsze'],['year','📅 Najmłodsze'],['mil','🛣️ Najniższy przebieg'],['dist','📍 Najbliżej']];
   const chips='<div class="chips">'
-    +'<span class="chip amb'+(f.watchOnly?' on':'')+'" onclick="setWatchOnly(!'+f.watchOnly+')">⭐ Obserwowane <span class="n">'+w+'</span></span>'
+    +'<span class="chip amb'+(f.watchOnly?' on':'')+'" title="'+(f.watchOnly?'Pokaż wszystkie oferty':'Pokaż tylko oferty obserwowanych modeli')+'" onclick="setWatchOnly(!'+f.watchOnly+')">⭐ Obserwowane <span class="n">'+w+'</span></span>'
     +TABS.map(function(t){
        const n=t[0]==='all'?c.all:(t[0]==='new'?c.neu:(t[0]==='price'?c.chg:(t[0]==='deal'?c.deal:(t[0]==='fav'?c.fav:(t[0]==='con'?c.con:c.dis)))));
-       return '<span class="chip'+(TAB===t[0]?' on':'')+(n===0&&TAB!==t[0]?' off':'')+'" data-tab="'+t[0]+'" onclick="setTab(\''+t[0]+'\')">'+t[1]+' <span class="n">'+n+'</span></span>';
+       const act=(TAB===t[0])&&!(t[0]==='all'&&f.watchOnly);
+       return '<span class="chip'+(act?' on':'')+(n===0&&!act?' off':'')+'" data-tab="'+t[0]+'" onclick="setTab(\''+t[0]+'\')">'+t[1]+' <span class="n">'+n+'</span></span>';
      }).join('')
     +'</div>';
   const bar='<div class="sortrow"><span>Sortuj:</span>'
@@ -1616,7 +1633,18 @@ function renderOffers(){
   const act=el('view')&&el('view').querySelector('.chip.on[data-tab]');
   if(act&&act.scrollIntoView){try{act.scrollIntoView({inline:'center',block:'nearest'});}catch(e){}}
 }
-function setWatchOnly(on){ST.filters.watchOnly=!!on;save();render();}
+function setWatchOnly(on){
+  ST.filters.watchOnly=!!on;save();render();
+  if(on&&!sumWatch()){toast('Nie obserwujesz żadnego modelu — pokazuję wszystkie oferty. Wybierz modele w zakładce 📚 Modele.');return;}
+  if(on){
+    const w=countWatchedOffers(),all=counts().all;
+    if(w===all)toast('Wszystkie '+all+' ofert należy do obserwowanych modeli — dodaj inne modele, żeby ten filtr coś zmienił.');
+    else toast('⭐ Pokazuję '+w+' z '+all+' ofert (obserwowane modele).');
+  }else{
+    const c=counts();
+    toast('Pokazuję wszystkie: '+c.all+' ofert. Modeli w obserwowanych masz '+sumWatch()+'.');
+  }
+}
 function setSort(v){ST.filters.sort=v;save();render();}
 
 /* ---------- MODELE ---------- */
@@ -1650,15 +1678,18 @@ function renderModels(){
       +'<div class="sortrow"><input class="inp" style="flex:1" placeholder="🔍 Szukaj modelu (np. Auris, Octavia)" value="'+esc(QMODEL)+'" oninput="setQModel(this.value)">'
       +'<button class="ab" style="flex:0 0 auto;flex-direction:row;gap:5px;border-color:#0f172a;background:#0f172a;color:#fff" onclick="openCustomModel()">＋ Model</button></div>';
     if(customModels().length){
-      html+='<div class="pack"><div class="ph"><div class="em">✍️</div><div class="nm"><b>Twoje modele</b><span>'+customModels().length+' dodane ręcznie · możesz przejrzeć, edytować lub usunąć</span></div></div>'
-        +customModels().map(function(m){
+      const myOpen=packIsOpen('own',true);
+      html+='<div class="pack'+(myOpen?'':' closed')+'"><div class="ph" onclick="togglePack(\'own\',this)">'
+        +'<div class="em">✍️</div><div class="nm"><b>Twoje modele</b><span>'+customModels().length+' dodane ręcznie · możesz przejrzeć, edytować lub usunąć</span></div>'
+        +'<span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span></div>'
+        +'<div class="rows">'+customModels().map(function(m){
           return '<div class="mrow"><div class="nm"><b>'+esc(m.name)+' <span class="tag t-own">TWÓJ</span></b>'
             +'<span>'+esc(m.years||'')+' · '+num1(m.l100)+' l · '+zl2(zl100Model(m,true,cf))+'/100 km</span>'
             +'<div class="mini"><button onclick="showModelOffers(\''+m.id+'\')">🔍 Oferty</button>'
             +'<button onclick="openCustomModel(\''+m.id+'\')">✏️ Edytuj</button>'
             +'<button onclick="delCustomModel(\''+m.id+'\')" style="color:#991b1b">🗑 Usuń</button></div></div>'
             +'<button class="tog'+(isWatchModel(m.id)?' on':'')+'" onclick="toggleWatchModel(\''+m.id+'\')"><i></i></button></div>';
-        }).join('')+'</div>';
+        }).join('')+'</div></div>';
     }
     const q=(QMODEL||'').toLowerCase();
     const packs=QPACK?PACKS.filter(function(p){return p.id===QPACK;}):PACKS;
@@ -1668,11 +1699,13 @@ function renderModels(){
       if(!ms.length)return;
       const watched=ms.filter(function(m){return isWatchModel(m.id);}).length;
       const cheapest=ms.reduce(function(a,m){const z=zl100Model(m,true,cfg());return z<a?z:a;},999);
-      const open=QMODEL?true:(QPACK?true:watched>0||ms.length<=6);
-      html+='<div class="pack"><div class="ph" onclick="this.parentNode.classList.toggle(\'closed\');this.querySelector(\'.btn-add\')&&null">'
-        +'<div class="em">'+p.em+'</div><div class="nm"><b>'+p.name+'</b><span>'+ms.length+' modeli · od '+zl2(cheapest)+' zł/100 km'+(watched?(' · ⭐ '+watched):'')+'</span></div>'
-        +'<button class="btn-add'+(watched===ms.length?' on':'')+'" onclick="event.stopPropagation();addPack(\''+p.id+'\')">'+(watched===ms.length?'✓ wszystkie':('＋ '+ms.length))+'</button></div>'
-        +'<div class="rows" style="display:'+(open?'block':'none')+'">'
+      const open=packIsOpen(p.id,!!(QMODEL||QPACK||(watched>0||ms.length<=6)));
+      html+='<div class="pack'+(open?'':' closed')+'"><div class="ph" onclick="togglePack(\''+p.id+'\',this)">'
+        +'<div class="em">'+p.em+'</div><div class="nm"><b>'+p.name+'</b><span>'+ms.length+' modeli · od '+zl2(cheapest)+' zł</span></div>'
+        +'<span class="cnt'+(watched===ms.length?' full':'')+'" title="obserwowane z tej grupy">⭐ '+watched+'/'+ms.length+'</span>'
+        +'<button class="btn-add'+(watched===ms.length?' on':'')+'" onclick="event.stopPropagation();addPack(\''+p.id+'\')">'+(watched===ms.length?'✓ wszystkie':('＋ '+ms.length))+'</button>'
+        +'<span class="chev"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span></div>'
+        +'<div class="rows">'
         +ms.map(function(m){
           const watchedM=isWatchModel(m.id),n=modelOffers(m.id).length;
           return '<div class="mrow"><div class="nm"><b>'+esc(m.name)+(isCustom(m)?' <span class="tag t-own">TWÓJ</span>':'')+'</b>'
@@ -2230,7 +2263,11 @@ function renderBulk(){
       +'<button class="ab" onclick="bulkFav()">★ Ulubione</button>')
    +'<button class="ab" onclick="selMode(false)">✕</button>';
 }
-function setTab(t){TAB=t;OPEN={};save();render();window.scrollTo({top:0,behavior:'smooth'});}
+function setTab(t){
+  TAB=t;OPEN={};
+  if(t==='all')ST.filters.watchOnly=false;   /* „Wszystkie" = bez zawężania do obserwowanych */
+  save();render();window.scrollTo({top:0,behavior:'smooth'});
+}
 
 /* ---------- counts / tabs engine ---------- */
 function counts(){
