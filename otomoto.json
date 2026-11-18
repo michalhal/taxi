@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-17T14:56:42+00:00",
+ "generated_at": "2026-11-18T00:00:46+00:00",
  "source": "OTOMOTO (scraper)",
- "count": 49,
+ "count": 50,
  "cost_model": {
   "baza": 4653,
   "lpg": 5000
@@ -79,7 +79,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-03T13:03:30+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -249,7 +249,7 @@
    "region": "",
    "dist_km": null,
    "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im10MzRoZDlvNnNrMjItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.jFJHoq4BwegUaM8Vo19J2kMUT22YWumvax93tHePqZE/image;s=400x300",
-   "created": "2026-11-07T21:16:00Z",
+   "created": "2026-11-17T21:16:00Z",
    "valid_to": null,
    "business": false,
    "koszt": {
@@ -268,7 +268,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-29T11:48:17+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -418,7 +418,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-15T13:00:24+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -683,7 +683,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": 23900
   },
   {
@@ -720,7 +720,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": 27999
   },
   {
@@ -757,7 +757,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-13T13:28:31+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -1060,7 +1060,8 @@
    "budget": "near",
    "first_seen": "2026-10-22T20:51:23+00:00",
    "last_seen": "2026-11-17T14:56:42+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-18T00:00:46+00:00"
   },
   {
    "id": "oto-6151384676",
@@ -1097,7 +1098,8 @@
    "budget": "near",
    "first_seen": "2026-10-27T21:32:14+00:00",
    "last_seen": "2026-11-17T14:56:42+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-18T00:00:46+00:00"
   },
   {
    "id": "oto-6151138054",
@@ -1137,6 +1139,42 @@
    "missing_since": "2026-10-17T19:46:45+00:00"
   },
   {
+   "id": "oto-6151741095",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6Ik4Sz.html",
+   "title": "Toyota Prius 1.8 HSD Premium",
+   "model": "Prius",
+   "price": 27500,
+   "year": 2011,
+   "mileage": 299317,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InA4dWE0dmo1YnY4bjItT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.UGg_knw8AMYAapZTcrvE3XVdqjgUllbIND2GC-9zwMw/image;s=400x300",
+   "created": "2026-11-17T17:00:30Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 37153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     927,
+     1002,
+     1052
+    ],
+    "r60": [
+     773,
+     835,
+     876
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-11-18T00:00:46+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00"
+  },
+  {
    "id": "oto-6151521733",
    "src": "OTOMOTO",
    "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6Ij9Ot.html",
@@ -1170,7 +1208,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-04T13:19:15+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": 29900
   },
   {
@@ -1207,7 +1245,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T21:45:06+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -1548,7 +1586,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-21T20:57:17+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": 27500
   },
   {
@@ -1585,7 +1623,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
@@ -1622,7 +1660,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-09T14:22:52+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
+   "last_seen": "2026-11-18T00:00:46+00:00",
    "prev_price": null
   },
   {
