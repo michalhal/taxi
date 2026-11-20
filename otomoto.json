@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T14:24:49+00:00",
+ "generated_at": "2026-11-20T23:23:48+00:00",
  "source": "OTOMOTO (scraper)",
  "count": 54,
  "cost_model": {
@@ -80,7 +80,8 @@
    "budget": "in",
    "first_seen": "2026-11-03T13:03:30+00:00",
    "last_seen": "2026-11-20T14:24:49+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-20T23:23:48+00:00"
   },
   {
    "id": "oto-6151119146",
@@ -154,7 +155,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T19:46:45+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": 19900
   },
   {
@@ -267,7 +268,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-29T11:48:17+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -417,7 +418,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-15T13:00:24+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -682,7 +683,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -719,7 +720,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -756,7 +757,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": 21000
   },
   {
@@ -793,7 +794,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": 27999
   },
   {
@@ -830,8 +831,45 @@
    },
    "budget": "in",
    "first_seen": "2026-11-13T13:28:31+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": 23500
+  },
+  {
+   "id": "oto-6151164002",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IhEKC.html",
+   "title": "Toyota Prius",
+   "model": "Prius",
+   "price": 23999,
+   "year": 2010,
+   "mileage": 340000,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im1nOWZ5eGx3aWFmeDEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.c9Rbq3kOBgMWoTBMXES9lFtFpyRFDnWtzHMAapki34w/image;s=400x300",
+   "created": "2026-11-15T22:32:02Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 33652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     840,
+     915,
+     964
+    ],
+    "r60": [
+     700,
+     762,
+     804
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-10-17T10:25:30+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
+   "prev_price": null
   },
   {
    "id": "oto-6151742050",
@@ -908,44 +946,6 @@
    "last_seen": "2026-11-19T14:44:21+00:00",
    "prev_price": 18500,
    "missing_since": "2026-11-19T23:52:16+00:00"
-  },
-  {
-   "id": "oto-6151164002",
-   "src": "OTOMOTO",
-   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IhEKC.html",
-   "title": "Toyota Prius",
-   "model": "Prius",
-   "price": 23999,
-   "year": 2010,
-   "mileage": 340000,
-   "fuel": "hybrid",
-   "lpg": false,
-   "city": "",
-   "region": "",
-   "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im1nOWZ5eGx3aWFmeDEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.c9Rbq3kOBgMWoTBMXES9lFtFpyRFDnWtzHMAapki34w/image;s=400x300",
-   "created": "2026-11-15T22:32:12Z",
-   "valid_to": null,
-   "business": false,
-   "koszt": {
-    "koszt": 33652,
-    "lpg_doliczone": 5000,
-    "r48": [
-     840,
-     915,
-     964
-    ],
-    "r60": [
-     700,
-     762,
-     804
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-11-17T01:07:38+00:00",
-   "prev_price": null,
-   "missing_since": "2026-11-17T14:56:42+00:00"
   },
   {
    "id": "oto-6151514637",
@@ -1137,44 +1137,6 @@
    "missing_since": "2026-10-17T19:46:45+00:00"
   },
   {
-   "id": "oto-6151291952",
-   "src": "OTOMOTO",
-   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6Iic2k.html",
-   "title": "Toyota Prius",
-   "model": "Prius",
-   "price": 29500,
-   "year": 2012,
-   "mileage": 303410,
-   "fuel": "hybrid",
-   "lpg": false,
-   "city": "",
-   "region": "",
-   "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjByZTV2cmh3dzgzbzMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ZKsHZb9dLC_thV3m1d-KlON3XvUNWGffZmdW1MhIoHY/image;s=400x300",
-   "created": "2026-11-06T18:59:00Z",
-   "valid_to": null,
-   "business": false,
-   "koszt": {
-    "koszt": 39153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     977,
-     1052,
-     1102
-    ],
-    "r60": [
-     814,
-     876,
-     918
-    ]
-   },
-   "budget": "near",
-   "first_seen": "2026-10-22T20:51:23+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
-   "prev_price": null,
-   "missing_since": "2026-11-18T00:00:46+00:00"
-  },
-  {
    "id": "oto-6151384676",
    "src": "OTOMOTO",
    "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IiA9S.html",
@@ -1208,6 +1170,43 @@
    },
    "budget": "near",
    "first_seen": "2026-10-27T21:32:14+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "oto-6151291952",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6Iic2k.html",
+   "title": "Toyota Prius",
+   "model": "Prius",
+   "price": 29500,
+   "year": 2012,
+   "mileage": 303410,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjByZTV2cmh3dzgzbzMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ZKsHZb9dLC_thV3m1d-KlON3XvUNWGffZmdW1MhIoHY/image;s=400x300",
+   "created": "2026-11-06T18:59:00Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 39153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     977,
+     1052,
+     1102
+    ],
+    "r60": [
+     814,
+     876,
+     918
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-10-22T20:51:23+00:00",
    "last_seen": "2026-11-17T14:56:42+00:00",
    "prev_price": null,
    "missing_since": "2026-11-18T00:00:46+00:00"
@@ -1283,7 +1282,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-18T00:00:46+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -1320,7 +1319,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T21:45:06+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -1699,7 +1698,44 @@
    },
    "budget": "near",
    "first_seen": "2026-11-19T14:44:21+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "oto-6151691008",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IjRQI.html",
+   "title": "Toyota Prius (Hybrid)",
+   "model": "Prius",
+   "price": 29900,
+   "year": 2010,
+   "mileage": 245384,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjRsYWgwOTR1eXRkcTEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Tzs_RpVmg7AjTy1jvg5PA2sBhyN0kPw6Et_5GiJZzo4/image;s=400x300",
+   "created": "2026-11-16T09:54:08Z",
+   "valid_to": null,
+   "business": true,
+   "koszt": {
+    "koszt": 39553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     987,
+     1062,
+     1112
+    ],
+    "r60": [
+     822,
+     885,
+     926
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-11-16T14:02:27+00:00",
+   "last_seen": "2026-11-20T23:23:48+00:00",
    "prev_price": null
   },
   {
@@ -1737,44 +1773,8 @@
    "budget": "near",
    "first_seen": "2026-10-21T20:57:17+00:00",
    "last_seen": "2026-11-20T14:24:49+00:00",
-   "prev_price": 27500
-  },
-  {
-   "id": "oto-6151691008",
-   "src": "OTOMOTO",
-   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IjRQI.html",
-   "title": "Toyota Prius (Hybrid)",
-   "model": "Prius",
-   "price": 29900,
-   "year": 2010,
-   "mileage": 245384,
-   "fuel": "hybrid",
-   "lpg": false,
-   "city": "",
-   "region": "",
-   "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjRsYWgwOTR1eXRkcTEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Tzs_RpVmg7AjTy1jvg5PA2sBhyN0kPw6Et_5GiJZzo4/image;s=400x300",
-   "created": "2026-11-16T09:54:08Z",
-   "valid_to": null,
-   "business": true,
-   "koszt": {
-    "koszt": 39553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     987,
-     1062,
-     1112
-    ],
-    "r60": [
-     822,
-     885,
-     926
-    ]
-   },
-   "budget": "near",
-   "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-20T14:24:49+00:00",
-   "prev_price": null
+   "prev_price": 27500,
+   "missing_since": "2026-11-20T23:23:48+00:00"
   },
   {
    "id": "oto-6151577122",
