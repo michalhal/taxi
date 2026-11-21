@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-20T23:23:48+00:00",
+ "generated_at": "2026-11-21T13:45:25+00:00",
  "source": "OTOMOTO (scraper)",
- "count": 54,
+ "count": 55,
  "cost_model": {
   "baza": 4653,
   "lpg": 5000
@@ -155,7 +155,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T19:46:45+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": 19900
   },
   {
@@ -268,7 +268,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-29T11:48:17+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -418,7 +418,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-15T13:00:24+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -683,7 +683,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -720,7 +720,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -757,7 +757,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": 21000
   },
   {
@@ -794,7 +794,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": 27999
   },
   {
@@ -831,7 +831,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-13T13:28:31+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": 23500
   },
   {
@@ -868,7 +868,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-17T10:25:30+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -1137,6 +1137,42 @@
    "missing_since": "2026-10-17T19:46:45+00:00"
   },
   {
+   "id": "oto-6151776702",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6Ike8S.html",
+   "title": "Toyota Prius",
+   "model": "Prius",
+   "price": 28900,
+   "year": 2013,
+   "mileage": 301000,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Iml0eXRkYzNsZDk1MTMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.fRQ5lslbvzfFFEBSeurLmr_zq9gM0KS2Ck1ySAv038U/image;s=400x300",
+   "created": "2026-11-19T17:27:37Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 38553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     962,
+     1037,
+     1087
+    ],
+    "r60": [
+     802,
+     864,
+     906
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-11-21T13:45:25+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00"
+  },
+  {
    "id": "oto-6151384676",
    "src": "OTOMOTO",
    "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IiA9S.html",
@@ -1170,7 +1206,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-27T21:32:14+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -1207,9 +1243,8 @@
    },
    "budget": "near",
    "first_seen": "2026-10-22T20:51:23+00:00",
-   "last_seen": "2026-11-17T14:56:42+00:00",
-   "prev_price": null,
-   "missing_since": "2026-11-18T00:00:46+00:00"
+   "last_seen": "2026-11-21T13:45:25+00:00",
+   "prev_price": null
   },
   {
    "id": "oto-6151138054",
@@ -1282,7 +1317,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-18T00:00:46+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -1319,7 +1354,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T21:45:06+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -1698,7 +1733,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-19T14:44:21+00:00",
-   "last_seen": "2026-11-20T23:23:48+00:00",
+   "last_seen": "2026-11-21T13:45:25+00:00",
    "prev_price": null
   },
   {
@@ -1736,7 +1771,8 @@
    "budget": "near",
    "first_seen": "2026-11-16T14:02:27+00:00",
    "last_seen": "2026-11-20T23:23:48+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-21T13:45:25+00:00"
   },
   {
    "id": "oto-6151270843",
