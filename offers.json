@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-20T17:02:27+00:00",
+ "generated_at": "2026-11-21T21:44:29+00:00",
  "source": "OLX API (droga: r.jina.ai)",
- "count": 619,
+ "count": 632,
  "cost_model": {
   "baza": 4653,
   "lpg": 5000,
@@ -120,7 +120,8 @@
    "budget": "in",
    "first_seen": "2026-11-15T15:43:57+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1102191672",
@@ -232,7 +233,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-07T20:20:07+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -459,7 +460,8 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1113702884",
@@ -495,7 +497,8 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1109294476",
@@ -531,7 +534,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-02T18:33:48+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 24500
   },
   {
@@ -568,7 +571,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-24T18:52:41+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 27000
   },
   {
@@ -606,7 +609,8 @@
    "budget": "in",
    "first_seen": "2026-11-04T12:19:57+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 25000
+   "prev_price": 25000,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1112538867",
@@ -643,7 +647,8 @@
    "budget": "in",
    "first_seen": "2026-11-16T18:41:59+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1110535934",
@@ -1025,43 +1030,6 @@
    "missing_since": "2026-10-18T12:40:50+00:00"
   },
   {
-   "id": "olx-1104299717",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-lpg-automat-oszczedny-nataxi-niskiprzebieg-poremoncie-doinwestowany-klima-sprawdzonabateria-raty-zamiana-CID5-ID1cJvNL.html",
-   "title": "Toyota Prius 1.8 Hybryda LPG//Automat//Oszczedny//NaTAXI//NiskiPrzebieg//PoRemoncie//Doinwestowany//Klima//SprawdzonaBateria//Raty//Zamiana",
-   "model": "Prius",
-   "price": 16990,
-   "year": 2013,
-   "mileage": 218000,
-   "fuel": "CNG i Hybryda",
-   "lpg": true,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 267,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/r6e7ujuv457i-PL/image;s=400x300",
-   "created": "2026-10-11T23:52:39+02:00",
-   "valid_to": "2026-12-10T23:35:15+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 21643,
-    "lpg_doliczone": 0,
-    "r48": [
-     540,
-     615,
-     665
-    ],
-    "r60": [
-     450,
-     512,
-     554
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 19990
-  },
-  {
    "id": "olx-1078724376",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-2013r-hybryda-gaz-CID5-ID1b0dug.html",
@@ -1095,7 +1063,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 19900
   },
   {
@@ -1132,7 +1100,8 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1113233493",
@@ -1168,7 +1137,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -1205,7 +1174,8 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1107042231",
@@ -1241,7 +1211,46 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1104299717",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-lpg-automat-oszczedny-nataxi-niskiprzebieg-poremoncie-doinwestowany-klima-sprawdzonabateria-raty-zamiana-CID5-ID1cJvNL.html",
+   "title": "Toyota Prius 1.8 Hybryda LPG//Automat//Oszczedny//NaTAXI//NiskiPrzebieg//PoRemoncie//Doinwestowany//Klima//SprawdzonaBateria//Raty//Zamiana",
+   "model": "Prius",
+   "price": 16990,
+   "year": 2013,
+   "mileage": 218000,
+   "fuel": "CNG i Hybryda",
+   "lpg": true,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 267,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/r6e7ujuv457i-PL/image;s=400x300",
+   "created": "2026-10-11T23:52:39+02:00",
+   "valid_to": "2026-12-10T23:35:15+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 21643,
+    "lpg_doliczone": 0,
+    "r48": [
+     540,
+     615,
+     665
+    ],
+    "r60": [
+     450,
+     512,
+     554
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-10-16T21:59:52+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": 19990,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1078236955",
@@ -1889,43 +1898,6 @@
    "missing_since": "2026-10-18T12:40:50+00:00"
   },
   {
-   "id": "olx-1090431362",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-lpg-13-16-otwarte-automat-2012rok-klima-skory-taxi-oszczedny-dlugieoplaty-gotowydojazdy-raty-zamiana-CID5-ID1bNl0C.html",
-   "title": "Toyota Prius 1.8 Hybryda LPG//13-16 Otwarte//Automat//2012Rok//Klima//Skory//TAXI//Oszczedny//DlugieOplaty//GotowyDoJazdy//Raty//Zamiana",
-   "model": "Prius",
-   "price": 17990,
-   "year": 2012,
-   "mileage": 261000,
-   "fuel": "CNG i Hybryda",
-   "lpg": true,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 267,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/whmkcfd2f1k02-PL/image;s=400x300",
-   "created": "2026-08-10T18:02:39+02:00",
-   "valid_to": "2026-12-10T09:53:09+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 22643,
-    "lpg_doliczone": 0,
-    "r48": [
-     565,
-     640,
-     690
-    ],
-    "r60": [
-     471,
-     533,
-     575
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-11-10T12:48:39+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
    "id": "olx-1108390430",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-okazja-100-sprawny-CID5-ID1d0GZ0.html",
@@ -1959,7 +1931,44 @@
    },
    "budget": "in",
    "first_seen": "2026-10-29T06:02:56+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1090431362",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-lpg-13-16-otwarte-automat-2012rok-klima-skory-taxi-oszczedny-dlugieoplaty-gotowydojazdy-raty-zamiana-CID5-ID1bNl0C.html",
+   "title": "Toyota Prius 1.8 Hybryda LPG//13-16 Otwarte//Automat//2012Rok//Klima//Skory//TAXI//Oszczedny//DlugieOplaty//GotowyDoJazdy//Raty//Zamiana",
+   "model": "Prius",
+   "price": 17990,
+   "year": 2012,
+   "mileage": 261000,
+   "fuel": "CNG i Hybryda",
+   "lpg": true,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 267,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/whmkcfd2f1k02-PL/image;s=400x300",
+   "created": "2026-08-10T18:02:39+02:00",
+   "valid_to": "2026-12-10T09:53:09+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 22643,
+    "lpg_doliczone": 0,
+    "r48": [
+     565,
+     640,
+     690
+    ],
+    "r60": [
+     471,
+     533,
+     575
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-11-10T12:48:39+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -1996,7 +2005,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 19900
   },
   {
@@ -2033,7 +2042,7 @@
    },
    "budget": "in",
    "first_seen": "2026-10-29T21:15:28+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -2336,7 +2345,118 @@
    },
    "budget": "in",
    "first_seen": "2026-10-28T21:12:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1109207090",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-style-CID5-ID1d47qV.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Style",
+   "model": "Auris Hybrid",
+   "price": 24300,
+   "year": 2011,
+   "mileage": 377000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 267,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/kpwfg9nmdcvs-PL/image;s=400x300",
+   "created": "2026-11-01T18:58:52+01:00",
+   "valid_to": "2026-12-01T17:57:38+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 33953,
+    "lpg_doliczone": 5000,
+    "r48": [
+     847,
+     922,
+     972
+    ],
+    "r60": [
+     706,
+     768,
+     810
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-11-01T20:37:47+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1107929016",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8i-hsd-136-km-hybrid-s-o-l-hybryda-wszystko-sprawn-CID5-ID1cYKVQ.html",
+   "title": "Toyota Auris TOYOTA AURIS 1.8i HSD 136 KM Hybrid „ S O L ”  HYBRYDA wszystko sprawn",
+   "model": "Auris Hybrid",
+   "price": 22000,
+   "year": 2011,
+   "mileage": 306000,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Białystok",
+   "region": "Podlaskie",
+   "dist_km": 428,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/u1t5iko88ccn-PL/image;s=400x300",
+   "created": "2026-10-27T10:04:48+01:00",
+   "valid_to": "2026-12-11T09:03:55+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 31653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     790,
+     865,
+     915
+    ],
+    "r60": [
+     658,
+     721,
+     762
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-10-27T14:41:33+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1109683063",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-CID5-ID1d67fW.html",
+   "title": "Toyota Auris 1.8 hybryda",
+   "model": "Auris Hybrid",
+   "price": 24700,
+   "year": 2011,
+   "mileage": 215624,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Złocieniec",
+   "region": "Zachodniopomorskie",
+   "dist_km": 418,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/uvho68bo077q-PL/image;s=400x300",
+   "created": "2026-11-03T19:04:48+01:00",
+   "valid_to": "2026-12-03T18:03:09+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 34353,
+    "lpg_doliczone": 5000,
+    "r48": [
+     857,
+     932,
+     982
+    ],
+    "r60": [
+     714,
+     777,
+     818
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-11-03T19:38:59+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -2374,118 +2494,8 @@
    "budget": "in",
    "first_seen": "2026-11-13T19:57:06+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1109207090",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-style-CID5-ID1d47qV.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Style",
-   "model": "Auris Hybrid",
-   "price": 24300,
-   "year": 2011,
-   "mileage": 377000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 267,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/kpwfg9nmdcvs-PL/image;s=400x300",
-   "created": "2026-11-01T18:58:52+01:00",
-   "valid_to": "2026-12-01T17:57:38+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 33953,
-    "lpg_doliczone": 5000,
-    "r48": [
-     847,
-     922,
-     972
-    ],
-    "r60": [
-     706,
-     768,
-     810
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-11-01T20:37:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1107929016",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8i-hsd-136-km-hybrid-s-o-l-hybryda-wszystko-sprawn-CID5-ID1cYKVQ.html",
-   "title": "Toyota Auris TOYOTA AURIS 1.8i HSD 136 KM Hybrid „ S O L ”  HYBRYDA wszystko sprawn",
-   "model": "Auris Hybrid",
-   "price": 22000,
-   "year": 2011,
-   "mileage": 306000,
-   "fuel": "Benzyna",
-   "lpg": false,
-   "city": "Białystok",
-   "region": "Podlaskie",
-   "dist_km": 428,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/u1t5iko88ccn-PL/image;s=400x300",
-   "created": "2026-10-27T10:04:48+01:00",
-   "valid_to": "2026-12-11T09:03:55+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 31653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     790,
-     865,
-     915
-    ],
-    "r60": [
-     658,
-     721,
-     762
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-10-27T14:41:33+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1109683063",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-CID5-ID1d67fW.html",
-   "title": "Toyota Auris 1.8 hybryda",
-   "model": "Auris Hybrid",
-   "price": 24700,
-   "year": 2011,
-   "mileage": 215624,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Złocieniec",
-   "region": "Zachodniopomorskie",
-   "dist_km": 418,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/uvho68bo077q-PL/image;s=400x300",
-   "created": "2026-11-03T19:04:48+01:00",
-   "valid_to": "2026-12-03T18:03:09+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 34353,
-    "lpg_doliczone": 5000,
-    "r48": [
-     857,
-     932,
-     982
-    ],
-    "r60": [
-     714,
-     777,
-     818
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-11-03T19:38:59+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1109975820",
@@ -3017,43 +3027,6 @@
    "missing_since": "2026-10-17T12:16:44+00:00"
   },
   {
-   "id": "olx-1104376731",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-2010-hybryda-lpg-gwarancja-bez-wkladu-finansowego-CID5-ID1cJQPW.html",
-   "title": "Toyota Prius 2010 • Hybryda • LPG • Gwarancja bez wkładu finansowego",
-   "model": "Prius",
-   "price": 15000,
-   "year": 2010,
-   "mileage": 330000,
-   "fuel": "LPG",
-   "lpg": true,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 256,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/44grzoqnsh5r-PL/image;s=400x300",
-   "created": "2026-10-12T12:09:09+02:00",
-   "valid_to": "2026-12-18T11:00:45+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 19653,
-    "lpg_doliczone": 0,
-    "r48": [
-     490,
-     565,
-     615
-    ],
-    "r60": [
-     409,
-     471,
-     513
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 15000
-  },
-  {
    "id": "olx-1111818350",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-2010-hybrid-serwis-kompletna-dokumentacja-CID5-ID1df4K2.html",
@@ -3087,7 +3060,8 @@
    },
    "budget": "in",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112420610",
@@ -3123,8 +3097,45 @@
    },
    "budget": "in",
    "first_seen": "2026-11-16T06:50:43+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 23900
+  },
+  {
+   "id": "olx-1104376731",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-2010-hybryda-lpg-gwarancja-bez-wkladu-finansowego-CID5-ID1cJQPW.html",
+   "title": "Toyota Prius 2010 • Hybryda • LPG • Gwarancja bez wkładu finansowego",
+   "model": "Prius",
+   "price": 13500,
+   "year": 2010,
+   "mileage": 330000,
+   "fuel": "LPG",
+   "lpg": true,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 256,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/44grzoqnsh5r-PL/image;s=400x300",
+   "created": "2026-10-12T12:09:09+02:00",
+   "valid_to": "2026-12-18T11:00:45+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 18153,
+    "lpg_doliczone": 0,
+    "r48": [
+     453,
+     528,
+     578
+    ],
+    "r60": [
+     377,
+     440,
+     481
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-10-16T21:59:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 15000
   },
   {
    "id": "olx-1108721202",
@@ -3132,9 +3143,9 @@
    "url": "https://www.olx.pl/d/oferta/sprowadzony-hybrid-CID5-ID1d2522.html",
    "title": "Sprowadzony  Hybrid",
    "model": "Auris Hybrid",
-   "price": 24999,
+   "price": 20500,
    "year": 2010,
-   "mileage": 250,
+   "mileage": 235000,
    "fuel": "CNG i Hybryda",
    "lpg": false,
    "city": "Siczki",
@@ -3145,23 +3156,23 @@
    "valid_to": "2026-11-29T07:49:43+01:00",
    "business": false,
    "koszt": {
-    "koszt": 34652,
+    "koszt": 30153,
     "lpg_doliczone": 5000,
     "r48": [
-     865,
-     939,
-     989
+     752,
+     827,
+     877
     ],
     "r60": [
-     721,
-     783,
-     824
+     627,
+     689,
+     731
     ]
    },
    "budget": "in",
    "first_seen": "2026-11-02T06:29:02+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 22000
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 24999
   },
   {
    "id": "olx-1105145426",
@@ -4069,7 +4080,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-17T13:39:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 43000
   },
   {
@@ -4199,7 +4210,7 @@
    "city": "Warszawa",
    "region": "Mazowieckie",
    "dist_km": 262,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/adm8rco6qnq81-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/jc83tb9c68v72-PL/image;s=400x300",
    "created": "2026-11-11T18:56:35+01:00",
    "valid_to": "2026-12-11T17:55:15+01:00",
    "business": false,
@@ -4219,7 +4230,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-11T22:53:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 32500
   },
   {
@@ -4256,7 +4267,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-12T16:54:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -4521,7 +4532,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112935932",
@@ -4529,7 +4541,7 @@
    "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-atrakcyjna-cena-CID5-ID1djLty.html",
    "title": "Toyota Auris Toyota Auris hybryda atrakcyjna cena",
    "model": "Auris Hybrid",
-   "price": 30000,
+   "price": 29500,
    "year": 2015,
    "mileage": 203000,
    "fuel": "Benzyna",
@@ -4537,27 +4549,28 @@
    "city": "Poznań",
    "region": "Wielkopolskie",
    "dist_km": 280,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/hprg1640gy382-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8mkchzzqf7kl2-PL/image;s=400x300",
    "created": "2026-11-17T22:41:33+01:00",
    "valid_to": "2026-12-17T21:40:44+01:00",
    "business": false,
    "koszt": {
-    "koszt": 39653,
+    "koszt": 39153,
     "lpg_doliczone": 5000,
     "r48": [
-     989,
-     1064,
-     1114
+     977,
+     1052,
+     1102
     ],
     "r60": [
-     825,
-     887,
-     928
+     814,
+     876,
+     918
     ]
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 30000
   },
   {
    "id": "olx-1111384554",
@@ -4594,7 +4607,8 @@
    "budget": "near",
    "first_seen": "2026-11-11T16:23:40+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 35000
+   "prev_price": 35000,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1103798495",
@@ -4858,7 +4872,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-05T22:08:19+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 36900
   },
   {
@@ -4895,8 +4909,44 @@
    },
    "budget": "near",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 28800
+  },
+  {
+   "id": "olx-1113944116",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-ii-1-8-hybrid-zarejestrowany-fv-automatic-e-cvt-CID5-ID1dnZKA.html",
+   "title": "Toyota Auris Toyota Auris II 1.8 hybrid zarejestrowany fv automatic e-CVT",
+   "model": "Auris Hybrid",
+   "price": 27900,
+   "year": 2014,
+   "mileage": 170000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Września",
+   "region": "Wielkopolskie",
+   "dist_km": 250,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/69hfrsill9jg3-PL/image;s=400x300",
+   "created": "2026-11-21T21:13:50+01:00",
+   "valid_to": "2026-12-21T20:12:31+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 37553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     937,
+     1012,
+     1062
+    ],
+    "r60": [
+     781,
+     843,
+     885
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1106558294",
@@ -4933,7 +4983,8 @@
    "budget": "near",
    "first_seen": "2026-10-21T20:15:37+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 33990
+   "prev_price": 33990,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1086783768",
@@ -5045,7 +5096,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1001710151",
@@ -5061,7 +5113,7 @@
    "city": "Sopot",
    "region": "Pomorskie",
    "dist_km": 466,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8et480evxpxz-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/x0j954j4o7fv2-PL/image;s=400x300",
    "created": "2025-05-12T17:46:40+02:00",
    "valid_to": "2026-12-13T16:15:39+01:00",
    "business": false,
@@ -5081,7 +5133,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-13T19:57:06+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5118,7 +5170,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-27T05:18:18+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 31900
   },
   {
@@ -5155,7 +5207,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 32500
   },
   {
@@ -5614,43 +5666,6 @@
    "missing_since": "2026-10-19T15:44:39+00:00"
   },
   {
-   "id": "olx-1107027429",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-3-generacja-CID5-ID1cUYp7.html",
-   "title": "Toyota Prius Toyota Prius 3 generacja",
-   "model": "Prius",
-   "price": 29500,
-   "year": 2012,
-   "mileage": 303410,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 262,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/old0j649p8rl1-PL/image;s=400x300",
-   "created": "2026-10-22T21:00:52+02:00",
-   "valid_to": "2026-11-21T19:59:45+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 39153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     977,
-     1052,
-     1102
-    ],
-    "r60": [
-     814,
-     876,
-     918
-    ]
-   },
-   "budget": "near",
-   "first_seen": "2026-10-22T20:13:34+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
    "id": "olx-1104364282",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-sprzedam-toyota-prius-2012-r-CID5-ID1cJNB8.html",
@@ -5684,7 +5699,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 37500
   },
   {
@@ -5721,7 +5736,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T15:08:12+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5758,7 +5773,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-13T12:24:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5795,44 +5810,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T20:54:35+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1109192808",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-CID5-ID1d43IA.html",
-   "title": "Toyota Auris TOYOTA Auris Hybryda Automat",
-   "model": "Auris Hybrid",
-   "price": 31200,
-   "year": 2012,
-   "mileage": 158366,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Licheń Stary",
-   "region": "Wielkopolskie",
-   "dist_km": 232,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8xb2aucxi0qs2-PL/image;s=400x300",
-   "created": "2026-11-01T17:34:43+01:00",
-   "valid_to": "2026-12-01T16:33:09+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 40853,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1019,
-     1094,
-     1144
-    ],
-    "r60": [
-     849,
-     912,
-     953
-    ]
-   },
-   "budget": "near",
-   "first_seen": "2026-11-01T20:37:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5869,7 +5847,44 @@
    },
    "budget": "near",
    "first_seen": "2026-11-02T18:33:48+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1109192808",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-CID5-ID1d43IA.html",
+   "title": "Toyota Auris TOYOTA Auris Hybryda Automat",
+   "model": "Auris Hybrid",
+   "price": 31200,
+   "year": 2012,
+   "mileage": 158366,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Licheń Stary",
+   "region": "Wielkopolskie",
+   "dist_km": 232,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8xb2aucxi0qs2-PL/image;s=400x300",
+   "created": "2026-11-01T17:34:43+01:00",
+   "valid_to": "2026-12-01T16:33:09+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 40853,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1019,
+     1094,
+     1144
+    ],
+    "r60": [
+     849,
+     912,
+     953
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-11-01T20:37:47+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5906,7 +5921,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5943,7 +5958,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-06T16:00:58+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -5980,8 +5995,46 @@
    },
    "budget": "near",
    "first_seen": "2026-11-11T22:53:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 33000
+  },
+  {
+   "id": "olx-1107027429",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-3-generacja-CID5-ID1cUYp7.html",
+   "title": "Toyota Prius Toyota Prius 3 generacja",
+   "model": "Prius",
+   "price": 29500,
+   "year": 2012,
+   "mileage": 303410,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 262,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/old0j649p8rl1-PL/image;s=400x300",
+   "created": "2026-10-22T21:00:52+02:00",
+   "valid_to": "2026-11-21T19:59:45+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 39153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     977,
+     1052,
+     1102
+    ],
+    "r60": [
+     814,
+     876,
+     918
+    ]
+   },
+   "budget": "near",
+   "first_seen": "2026-10-22T20:13:34+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1108074929",
@@ -6283,7 +6336,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -6320,7 +6373,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T20:54:35+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -6357,7 +6410,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 26900
   },
   {
@@ -6394,7 +6447,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1103702112",
@@ -6430,7 +6484,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 29999
   },
   {
@@ -6467,7 +6521,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 30600
   },
   {
@@ -6504,7 +6558,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1106807040",
@@ -6541,7 +6596,8 @@
    "budget": "near",
    "first_seen": "2026-10-22T13:56:02+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 29500
+   "prev_price": 29500,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1112639128",
@@ -7526,7 +7582,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-09T18:56:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -7563,7 +7619,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112460927",
@@ -7599,7 +7656,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112300534",
@@ -7635,7 +7693,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-15T15:43:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -7672,7 +7730,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-20T23:15:04+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 32000
   },
   {
@@ -7709,7 +7767,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1097423912",
@@ -8201,7 +8260,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1105861168",
@@ -8285,7 +8345,7 @@
    "url": "https://www.olx.pl/d/oferta/toyota-prius-awd-CID5-ID1c0aP6.html",
    "title": "Toyota Prius AWD",
    "model": "Prius",
-   "price": 59800,
+   "price": 58500,
    "year": 2021,
    "mileage": 246500,
    "fuel": "Hybryda Plug-in",
@@ -8298,23 +8358,23 @@
    "valid_to": "2026-11-27T04:17:54+01:00",
    "business": false,
    "koszt": {
-    "koszt": 64453,
+    "koszt": 63153,
     "lpg_doliczone": 0,
     "r48": [
-     1608,
-     1683,
-     1733
+     1576,
+     1651,
+     1701
     ],
     "r60": [
-     1340,
-     1403,
-     1444
+     1313,
+     1376,
+     1417
     ]
    },
    "budget": "out",
    "first_seen": "2026-11-16T06:50:43+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 59999
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 59800
   },
   {
    "id": "olx-1106092687",
@@ -8442,7 +8502,7 @@
    "city": "Otwock Mały",
    "region": "Mazowieckie",
    "dist_km": 253,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/bkoxk76j9nkw-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/e148g8n0ozj02-PL/image;s=400x300",
    "created": "2026-11-17T21:25:28+01:00",
    "valid_to": "2026-12-17T21:24:41+01:00",
    "business": true,
@@ -8462,7 +8522,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -8499,7 +8559,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 57900
   },
   {
@@ -8650,7 +8710,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-12T16:54:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -8688,7 +8748,8 @@
    "budget": "out",
    "first_seen": "2026-10-22T05:04:27+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1113415284",
@@ -8880,42 +8941,6 @@
    "missing_since": "2026-11-01T20:37:47+00:00"
   },
   {
-   "id": "olx-1112624153",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-CID5-ID1dismR.html",
-   "title": "Toyota Prius",
-   "model": "Prius",
-   "price": 38000,
-   "year": 2018,
-   "mileage": 351000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 267,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7mxsi8lnsfei2-PL/image;s=400x300",
-   "created": "2026-11-16T20:59:52+01:00",
-   "valid_to": "2026-12-16T19:58:14+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 47653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1189,
-     1264,
-     1314
-    ],
-    "r60": [
-     991,
-     1053,
-     1095
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
    "id": "olx-1083844782",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-bogata-wersja-zadbany-w-bardzo-dobrym-stanie-techniczny-CID5-ID1blHxs.html",
@@ -8949,7 +8974,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-06T21:39:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -8986,7 +9011,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 60000
   },
   {
@@ -9023,7 +9048,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -9060,7 +9085,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-20T05:02:15+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 36950
   },
   {
@@ -9069,7 +9094,7 @@
    "url": "https://www.olx.pl/d/oferta/toyota-prius-CID5-ID1dm3rq.html",
    "title": "Toyota Prius+",
    "model": "Prius+",
-   "price": 55300,
+   "price": 53300,
    "year": 2018,
    "mileage": 398000,
    "fuel": "CNG i Hybryda",
@@ -9077,28 +9102,28 @@
    "city": "Warszawa",
    "region": "Mazowieckie",
    "dist_km": 256,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/3p9b08j9qz4i3-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/q23trjfigeqt-PL/image;s=400x300",
    "created": "2026-11-19T17:37:36+01:00",
    "valid_to": "2026-12-19T16:36:18+01:00",
    "business": false,
    "koszt": {
-    "koszt": 59953,
+    "koszt": 57953,
     "lpg_doliczone": 0,
     "r48": [
-     1496,
-     1571,
-     1621
+     1446,
+     1521,
+     1571
     ],
     "r60": [
-     1247,
-     1309,
-     1351
+     1205,
+     1267,
+     1309
     ]
    },
    "budget": "out",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 55300
   },
   {
    "id": "olx-1100856275",
@@ -9134,7 +9159,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-20T20:03:28+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -9171,7 +9196,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-20T20:03:28+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 58000
   },
   {
@@ -9208,7 +9233,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1102448444",
@@ -9244,7 +9270,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 39800
   },
   {
@@ -9281,8 +9307,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-15T21:08:00+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1113721299",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-ii-hybrid-2018r-135tys-km-CID5-ID1dn3ML.html",
+   "title": "Toyota Auris Toyota AURIS II HYBRID 2018R 135tys km",
+   "model": "Auris Hybrid",
+   "price": 52500,
+   "year": 2018,
+   "mileage": 135000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Tarnów",
+   "region": "Małopolskie",
+   "dist_km": 142,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/f1lskht21bha2-PL/image;s=400x300",
+   "created": "2026-11-20T18:49:47+01:00",
+   "valid_to": "2026-12-20T17:48:31+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 62153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1551,
+     1626,
+     1676
+    ],
+    "r60": [
+     1292,
+     1355,
+     1396
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1089143317",
@@ -9298,7 +9360,7 @@
    "city": "Czechowice-Dziedzice",
    "region": "Śląskie",
    "dist_km": 39,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/rra7wgtjwnic2-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/am8srrn2ah-PL/image;s=400x300",
    "created": "2026-08-03T16:52:39+02:00",
    "valid_to": "2026-12-01T17:21:22+01:00",
    "business": true,
@@ -9318,7 +9380,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-18T22:29:28+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 59900
   },
   {
@@ -9335,7 +9397,7 @@
    "city": "Gdańsk",
    "region": "Pomorskie",
    "dist_km": 463,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9eg0f0a4ykq41-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9trqpoerlyzc2-PL/image;s=400x300",
    "created": "2026-11-01T08:24:52+01:00",
    "valid_to": "2026-12-01T08:19:38+01:00",
    "business": true,
@@ -9355,81 +9417,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-01T15:19:09+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1110900160",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-2018r-automat-CID5-ID1dbdSv.html",
-   "title": "Toyota Auris Toyota Auris Hybrid 2018r Automat",
-   "model": "Auris Hybrid",
-   "price": 42900,
-   "year": 2018,
-   "mileage": 113000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Krzyszkowice",
-   "region": "Małopolskie",
-   "dist_km": 77,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/a537d93bbc1m1-PL/image;s=400x300",
-   "created": "2026-11-09T15:26:55+01:00",
-   "valid_to": "2026-11-29T20:36:21+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 52553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1311,
-     1386,
-     1436
-    ],
-    "r60": [
-     1093,
-     1155,
-     1197
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-09T18:56:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1112919558",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-hybrid-salon-pl-CID5-ID1djHds.html",
-   "title": "Toyota Auris Hybrid  Salon PL",
-   "model": "Auris Hybrid",
-   "price": 47900,
-   "year": 2018,
-   "mileage": 224000,
-   "fuel": "CNG i Hybryda",
-   "lpg": true,
-   "city": "Białystok",
-   "region": "Podlaskie",
-   "dist_km": 428,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/74gzdz0ssndl2-PL/image;s=400x300",
-   "created": "2026-11-17T21:36:45+01:00",
-   "valid_to": "2026-12-17T21:39:10+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 52553,
-    "lpg_doliczone": 0,
-    "r48": [
-     1311,
-     1386,
-     1436
-    ],
-    "r60": [
-     1093,
-     1155,
-     1197
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -9466,7 +9454,118 @@
    },
    "budget": "out",
    "first_seen": "2026-10-31T20:06:48+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1112919558",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-hybrid-salon-pl-CID5-ID1djHds.html",
+   "title": "Toyota Auris Hybrid  Salon PL",
+   "model": "Auris Hybrid",
+   "price": 47900,
+   "year": 2018,
+   "mileage": 224000,
+   "fuel": "CNG i Hybryda",
+   "lpg": true,
+   "city": "Białystok",
+   "region": "Podlaskie",
+   "dist_km": 428,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/74gzdz0ssndl2-PL/image;s=400x300",
+   "created": "2026-11-17T21:36:45+01:00",
+   "valid_to": "2026-12-17T21:39:10+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 52553,
+    "lpg_doliczone": 0,
+    "r48": [
+     1311,
+     1386,
+     1436
+    ],
+    "r60": [
+     1093,
+     1155,
+     1197
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-18T07:44:53+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1110900160",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-2018r-automat-CID5-ID1dbdSv.html",
+   "title": "Toyota Auris Toyota Auris Hybrid 2018r Automat",
+   "model": "Auris Hybrid",
+   "price": 42900,
+   "year": 2018,
+   "mileage": 113000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Krzyszkowice",
+   "region": "Małopolskie",
+   "dist_km": 77,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/a537d93bbc1m1-PL/image;s=400x300",
+   "created": "2026-11-09T15:26:55+01:00",
+   "valid_to": "2026-11-29T20:36:21+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 52553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1311,
+     1386,
+     1436
+    ],
+    "r60": [
+     1093,
+     1155,
+     1197
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-09T18:56:49+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1111373125",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-2018-fv23-salon-polska-1-wlasciciel-serwisowany-do-konca-CID5-ID1ddcUZ.html",
+   "title": "Toyota Auris 1.8 Hybrid 2018 FV23% Salon Polska 1 Właściciel Serwisowany do Końca",
+   "model": "Auris Hybrid",
+   "price": 39990,
+   "year": 2018,
+   "mileage": 299500,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Brzesko",
+   "region": "Małopolskie",
+   "dist_km": 118,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ehti2l67oflk3-PL/image;s=400x300",
+   "created": "2026-11-11T09:40:35+01:00",
+   "valid_to": "2026-12-11T09:42:04+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 49643,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1239,
+     1314,
+     1363
+    ],
+    "r60": [
+     1032,
+     1095,
+     1136
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-11T16:23:40+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -9503,7 +9602,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1107984859",
@@ -9539,43 +9639,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1107791314",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-kombi-2018-roku-CID5-ID1cYb7Q.html",
-   "title": "Toyota Auris Toyota auris hybryda kombi 2018 roku",
-   "model": "Auris Hybrid",
-   "price": 57800,
-   "year": 2018,
-   "mileage": 57827,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 267,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/6q4mihyyfmc4-PL/image;s=400x300",
-   "created": "2026-10-26T14:40:47+01:00",
-   "valid_to": "2026-11-25T13:39:15+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 67453,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1683,
-     1758,
-     1808
-    ],
-    "r60": [
-     1403,
-     1465,
-     1507
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1103085237",
@@ -9611,7 +9676,45 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1107791314",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-kombi-2018-roku-CID5-ID1cYb7Q.html",
+   "title": "Toyota Auris Toyota auris hybryda kombi 2018 roku",
+   "model": "Auris Hybrid",
+   "price": 57800,
+   "year": 2018,
+   "mileage": 57827,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 267,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/6q4mihyyfmc4-PL/image;s=400x300",
+   "created": "2026-10-26T14:40:47+01:00",
+   "valid_to": "2026-11-25T13:39:15+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 67453,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1683,
+     1758,
+     1808
+    ],
+    "r60": [
+     1403,
+     1465,
+     1507
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1109295057",
@@ -9647,8 +9750,45 @@
    },
    "budget": "out",
    "first_seen": "2026-11-02T18:33:48+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1112624153",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-CID5-ID1dismR.html",
+   "title": "Toyota Prius",
+   "model": "Prius",
+   "price": 38000,
+   "year": 2018,
+   "mileage": 351000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 267,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7mxsi8lnsfei2-PL/image;s=400x300",
+   "created": "2026-11-16T20:59:52+01:00",
+   "valid_to": "2026-12-16T19:58:14+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 47653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1189,
+     1264,
+     1314
+    ],
+    "r60": [
+     991,
+     1053,
+     1095
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1111580069",
@@ -9760,44 +9900,6 @@
    },
    "budget": "out",
    "first_seen": "2026-10-20T23:15:04+00:00",
-   "last_seen": "2026-11-18T07:44:53+00:00",
-   "prev_price": null,
-   "missing_since": "2026-11-19T23:07:52+00:00"
-  },
-  {
-   "id": "olx-1111373125",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-2018-fv23-salon-polska-1-wlasciciel-serwisowany-do-konca-CID5-ID1ddcUZ.html",
-   "title": "Toyota Auris 1.8 Hybrid 2018 FV23% Salon Polska 1 Właściciel Serwisowany do Końca",
-   "model": "Auris Hybrid",
-   "price": 39990,
-   "year": 2018,
-   "mileage": 299500,
-   "fuel": "Benzyna",
-   "lpg": false,
-   "city": "Brzesko",
-   "region": "Małopolskie",
-   "dist_km": 118,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ehti2l67oflk3-PL/image;s=400x300",
-   "created": "2026-11-11T09:40:35+01:00",
-   "valid_to": "2026-12-11T09:42:04+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 49643,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1239,
-     1314,
-     1363
-    ],
-    "r60": [
-     1032,
-     1095,
-     1136
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-11T16:23:40+00:00",
    "last_seen": "2026-11-18T07:44:53+00:00",
    "prev_price": null,
    "missing_since": "2026-11-19T23:07:52+00:00"
@@ -11164,7 +11266,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-30T15:08:12+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -11201,7 +11303,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-05T22:08:19+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -11238,7 +11340,633 @@
    },
    "budget": "out",
    "first_seen": "2026-10-18T12:40:50+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1111381260",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-plus-2017-gaz-CID5-ID1ddf2c.html",
+   "title": "Toyota Prius plus 2017 gaz",
+   "model": "Prius+",
+   "price": 46000,
+   "year": 2017,
+   "mileage": 448104,
+   "fuel": "LPG",
+   "lpg": true,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 258,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/5lcrylp56v4h2-PL/image;s=400x300",
+   "created": "2026-11-11T10:18:57+01:00",
+   "valid_to": "2026-12-11T10:32:03+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 50653,
+    "lpg_doliczone": 0,
+    "r48": [
+     1264,
+     1339,
+     1389
+    ],
+    "r60": [
+     1053,
+     1116,
+     1157
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-11T16:23:40+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113858891",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-108-tys-km-salon-polska-serwisowany-CID5-ID1dnDzZ.html",
+   "title": "Toyota Auris 1.8 HYBRYDA 108 TYS. KM Salon Polska Serwisowany",
+   "model": "Auris Hybrid",
+   "price": 52800,
+   "year": 2017,
+   "mileage": 108975,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Nowe Opole",
+   "region": "Mazowieckie",
+   "dist_km": 306,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/lj7sz92gjpqi1-PL/image;s=400x300",
+   "created": "2026-11-21T14:22:47+01:00",
+   "valid_to": "2026-12-21T14:17:15+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 62453,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1558,
+     1633,
+     1683
+    ],
+    "r60": [
+     1299,
+     1361,
+     1403
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1112620925",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-CID5-ID1dirvN.html",
+   "title": "Toyota Auris Toyota Auris hybrid",
+   "model": "Auris Hybrid",
+   "price": 58900,
+   "year": 2017,
+   "mileage": 83560,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Jabłonowo Pomorskie",
+   "region": "Kujawsko-pomorskie",
+   "dist_km": 348,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/62pycrh9hpw61-PL/image;s=400x300",
+   "created": "2026-11-16T20:49:47+01:00",
+   "valid_to": "2026-12-16T19:48:56+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 68553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1711,
+     1785,
+     1835
+    ],
+    "r60": [
+     1425,
+     1488,
+     1529
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-17T13:39:49+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1108283164",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-129tys-km-CID5-ID1d0f4U.html",
+   "title": "Toyota Auris 1.8 Hybrid 129tys km !",
+   "model": "Auris Hybrid",
+   "price": 36999,
+   "year": 2017,
+   "mileage": 129000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Pleszew",
+   "region": "Wielkopolskie",
+   "dist_km": 200,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/dql8bu0h3x8l2-PL/image;s=400x300",
+   "created": "2026-10-28T15:40:30+01:00",
+   "valid_to": "2026-11-27T15:39:54+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 46652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1164,
+     1239,
+     1289
+    ],
+    "r60": [
+     970,
+     1032,
+     1074
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-28T21:12:25+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113874598",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-136km-bezwypadkowy-automat-139tys-km-bagaze-wyposazenie-CID5-ID1dnHFk.html",
+   "title": "Toyota Auris 1.8 Hybrid 136km bezwypadkowy automat 139tys km bagaże wyposażenie",
+   "model": "Auris Hybrid",
+   "price": 54900,
+   "year": 2017,
+   "mileage": 139868,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Mietków",
+   "region": "Dolnośląskie",
+   "dist_km": 185,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/zw89uibp2g2a-PL/image;s=400x300",
+   "created": "2026-11-21T15:31:27+01:00",
+   "valid_to": "2026-12-21T15:26:51+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 64553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1611,
+     1686,
+     1735
+    ],
+    "r60": [
+     1342,
+     1405,
+     1446
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1113614495",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-selection-2017-173-tys-km-bateria-100-CID5-ID1dmC07.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid SELECTION | 2017 | 173 tys. km | Bateria 100%",
+   "model": "Auris Hybrid",
+   "price": 49500,
+   "year": 2017,
+   "mileage": 173000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 261,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/mqdrndbus6jh-PL/image;s=400x300",
+   "created": "2026-11-20T10:03:43+01:00",
+   "valid_to": "2026-12-20T09:02:43+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 59153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1476,
+     1551,
+     1601
+    ],
+    "r60": [
+     1230,
+     1292,
+     1334
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1108900376",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-CID5-ID1d2PDV.html",
+   "title": "Toyota Auris Toyota auris",
+   "model": "Auris Hybrid",
+   "price": 48900,
+   "year": 2017,
+   "mileage": 154000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Siedlce",
+   "region": "Mazowieckie",
+   "dist_km": 311,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/fs5xwntwswqa2-PL/image;s=400x300",
+   "created": "2026-10-30T19:53:47+01:00",
+   "valid_to": "2026-11-29T18:48:38+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 58553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1461,
+     1536,
+     1586
+    ],
+    "r60": [
+     1217,
+     1280,
+     1321
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-30T20:54:35+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1112143174",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-hatchback-CID5-ID1dgrf8.html",
+   "title": "Toyota Auris Toyota Auris hybryda automat hatchback",
+   "model": "Auris Hybrid",
+   "price": 42000,
+   "year": 2017,
+   "mileage": 162839,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wałbrzych",
+   "region": "Dolnośląskie",
+   "dist_km": 202,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8p9lcpaps1vo-PL/image;s=400x300",
+   "created": "2026-11-14T16:30:46+01:00",
+   "valid_to": "2026-12-14T15:29:44+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 51653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1289,
+     1364,
+     1414
+    ],
+    "r60": [
+     1074,
+     1136,
+     1178
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-14T18:19:32+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113168909",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybryda-CID5-ID1dkK5f.html",
+   "title": "Toyota Auris Toyota Auris 1.8 hybryda",
+   "model": "Auris Hybrid",
+   "price": 52900,
+   "year": 2017,
+   "mileage": 119000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Czubrowice",
+   "region": "Małopolskie",
+   "dist_km": 51,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/l6tt29oybiz51-PL/image;s=400x300",
+   "created": "2026-11-18T16:04:45+01:00",
+   "valid_to": "2026-12-18T15:03:40+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 62553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1561,
+     1636,
+     1686
+    ],
+    "r60": [
+     1301,
+     1363,
+     1405
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1109919490",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-CID5-ID1d76Lg.html",
+   "title": "Sprzedam Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 55000,
+   "year": 2017,
+   "mileage": 162000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Radzymin",
+   "region": "Mazowieckie",
+   "dist_km": 282,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ygm3akwcubfe3-PL/image;s=400x300",
+   "created": "2026-11-04T17:02:12+01:00",
+   "valid_to": "2026-12-07T22:36:26+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 64653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1613,
+     1688,
+     1738
+    ],
+    "r60": [
+     1344,
+     1407,
+     1448
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-07T23:43:20+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1100710371",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-active-automat-fv-marza-kredyt-50-50-CID5-ID1cut35.html",
+   "title": "Toyota Auris Toyota Auris | 1.8 Hybrid | Active | Automat | Fv Marża | Kredyt 50/50",
+   "model": "Auris Hybrid",
+   "price": 54900,
+   "year": 2017,
+   "mileage": 153745,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Kalisz",
+   "region": "Wielkopolskie",
+   "dist_km": 179,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/th3mb9igjc3z1-PL/image;s=400x300",
+   "created": "2026-09-25T17:05:49+02:00",
+   "valid_to": "2026-11-24T17:30:14+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 64553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1611,
+     1686,
+     1735
+    ],
+    "r60": [
+     1342,
+     1405,
+     1446
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-22T20:13:34+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1107573277",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1cXgp7.html",
+   "title": "Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 48500,
+   "year": 2017,
+   "mileage": 151000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Grójec",
+   "region": "Mazowieckie",
+   "dist_km": 220,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9ru77l0hupo11-PL/image;s=400x300",
+   "created": "2026-10-25T15:49:42+01:00",
+   "valid_to": "2026-11-24T14:48:56+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 58153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1451,
+     1526,
+     1576
+    ],
+    "r60": [
+     1209,
+     1272,
+     1313
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-25T19:09:39+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1110123999",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-1-8-hsd-oc-ac-CID5-ID1d7XXN.html",
+   "title": "Sprzedam Toyota auris 1.8 HSD OC AC",
+   "model": "Auris Hybrid",
+   "price": 45500,
+   "year": 2017,
+   "mileage": 177000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 261,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/30huxdsxb6mp3-PL/image;s=400x300",
+   "created": "2026-11-05T16:39:59+01:00",
+   "valid_to": "2026-12-10T16:48:04+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 55153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1376,
+     1451,
+     1501
+    ],
+    "r60": [
+     1147,
+     1209,
+     1251
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-10T21:51:51+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 45900
+  },
+  {
+   "id": "olx-1108639071",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1d1JFl.html",
+   "title": "Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 42900,
+   "year": 2017,
+   "mileage": 220300,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 262,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/d26lbbakripf3-PL/image;s=400x300",
+   "created": "2026-10-29T21:11:04+01:00",
+   "valid_to": "2026-11-28T21:06:44+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 52553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1311,
+     1386,
+     1436
+    ],
+    "r60": [
+     1093,
+     1155,
+     1197
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113483855",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-prime-CID5-ID1dm411.html",
+   "title": "Toyota Prius Toyota Prius Prime",
+   "model": "Prius",
+   "price": 47900,
+   "year": 2017,
+   "mileage": 125000,
+   "fuel": "Hybryda Plug-in",
+   "lpg": false,
+   "city": "Kielce",
+   "region": "Świętokrzyskie",
+   "dist_km": 132,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9470nn0bu1cy-PL/image;s=400x300",
+   "created": "2026-11-19T17:45:54+01:00",
+   "valid_to": "2026-12-19T16:44:55+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 57553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1436,
+     1511,
+     1561
+    ],
+    "r60": [
+     1197,
+     1259,
+     1301
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-19T23:07:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 49900
+  },
+  {
+   "id": "olx-1091185830",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-stan-idealny-CID5-ID1bQwhs.html",
+   "title": "Toyota Prius Stan Idealny",
+   "model": "Prius",
+   "price": 58000,
+   "year": 2017,
+   "mileage": 150000,
+   "fuel": "Hybryda Plug-in",
+   "lpg": false,
+   "city": "Ostrołęka",
+   "region": "Mazowieckie",
+   "dist_km": 358,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/a3348gx5fv5k-PL/image;s=400x300",
+   "created": "2026-08-14T22:44:00+02:00",
+   "valid_to": "2026-12-18T06:33:14+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 67653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1688,
+     1763,
+     1813
+    ],
+    "r60": [
+     1407,
+     1469,
+     1511
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-18T07:44:53+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1086796877",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-plug-in-hybrid-radar-led-CID5-ID1by5wT.html",
+   "title": "Toyota Prius Plug-in Hybrid Radar Led",
+   "model": "Prius Plug-in",
+   "price": 58600,
+   "year": 2017,
+   "mileage": 112600,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Przemyśl",
+   "region": "Podkarpackie",
+   "dist_km": 273,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/xtk8imic68771-PL/image;s=400x300",
+   "created": "2026-07-22T12:08:10+02:00",
+   "valid_to": "2026-12-07T11:06:14+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 68253,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1703,
+     1778,
+     1828
+    ],
+    "r60": [
+     1419,
+     1482,
+     1523
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-07T14:58:16+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -11276,523 +12004,8 @@
    "budget": "out",
    "first_seen": "2026-10-22T20:13:34+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 45500
-  },
-  {
-   "id": "olx-1111381260",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-plus-2017-gaz-CID5-ID1ddf2c.html",
-   "title": "Toyota Prius plus 2017 gaz",
-   "model": "Prius+",
-   "price": 46000,
-   "year": 2017,
-   "mileage": 448104,
-   "fuel": "LPG",
-   "lpg": true,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 258,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/5lcrylp56v4h2-PL/image;s=400x300",
-   "created": "2026-11-11T10:18:57+01:00",
-   "valid_to": "2026-12-11T10:32:03+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 50653,
-    "lpg_doliczone": 0,
-    "r48": [
-     1264,
-     1339,
-     1389
-    ],
-    "r60": [
-     1053,
-     1116,
-     1157
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-11T16:23:40+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1113614495",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-selection-2017-173-tys-km-bateria-100-CID5-ID1dmC07.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid SELECTION | 2017 | 173 tys. km | Bateria 100%",
-   "model": "Auris Hybrid",
-   "price": 49500,
-   "year": 2017,
-   "mileage": 173000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 261,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/de6hejap8inm2-PL/image;s=400x300",
-   "created": "2026-11-20T10:03:43+01:00",
-   "valid_to": "2026-12-20T09:02:43+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 59153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1476,
-     1551,
-     1601
-    ],
-    "r60": [
-     1230,
-     1292,
-     1334
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1112620925",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-CID5-ID1dirvN.html",
-   "title": "Toyota Auris Toyota Auris hybrid",
-   "model": "Auris Hybrid",
-   "price": 58900,
-   "year": 2017,
-   "mileage": 83560,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Jabłonowo Pomorskie",
-   "region": "Kujawsko-pomorskie",
-   "dist_km": 348,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/62pycrh9hpw61-PL/image;s=400x300",
-   "created": "2026-11-16T20:49:47+01:00",
-   "valid_to": "2026-12-16T19:48:56+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 68553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1711,
-     1785,
-     1835
-    ],
-    "r60": [
-     1425,
-     1488,
-     1529
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-17T13:39:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1108283164",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-129tys-km-CID5-ID1d0f4U.html",
-   "title": "Toyota Auris 1.8 Hybrid 129tys km !",
-   "model": "Auris Hybrid",
-   "price": 36999,
-   "year": 2017,
-   "mileage": 129000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Pleszew",
-   "region": "Wielkopolskie",
-   "dist_km": 200,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/dql8bu0h3x8l2-PL/image;s=400x300",
-   "created": "2026-10-28T15:40:30+01:00",
-   "valid_to": "2026-11-27T15:39:54+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 46652,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1164,
-     1239,
-     1289
-    ],
-    "r60": [
-     970,
-     1032,
-     1074
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-28T21:12:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1108900376",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-CID5-ID1d2PDV.html",
-   "title": "Toyota Auris Toyota auris",
-   "model": "Auris Hybrid",
-   "price": 48900,
-   "year": 2017,
-   "mileage": 154000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Siedlce",
-   "region": "Mazowieckie",
-   "dist_km": 311,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/fs5xwntwswqa2-PL/image;s=400x300",
-   "created": "2026-10-30T19:53:47+01:00",
-   "valid_to": "2026-11-29T18:48:38+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 58553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1461,
-     1536,
-     1586
-    ],
-    "r60": [
-     1217,
-     1280,
-     1321
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-30T20:54:35+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1109919490",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-CID5-ID1d76Lg.html",
-   "title": "Sprzedam Toyota Auris",
-   "model": "Auris Hybrid",
-   "price": 55000,
-   "year": 2017,
-   "mileage": 162000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Radzymin",
-   "region": "Mazowieckie",
-   "dist_km": 282,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ygm3akwcubfe3-PL/image;s=400x300",
-   "created": "2026-11-04T17:02:12+01:00",
-   "valid_to": "2026-12-07T22:36:26+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 64653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1613,
-     1688,
-     1738
-    ],
-    "r60": [
-     1344,
-     1407,
-     1448
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-07T23:43:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1112143174",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-hatchback-CID5-ID1dgrf8.html",
-   "title": "Toyota Auris Toyota Auris hybryda automat hatchback",
-   "model": "Auris Hybrid",
-   "price": 42000,
-   "year": 2017,
-   "mileage": 162839,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Wałbrzych",
-   "region": "Dolnośląskie",
-   "dist_km": 202,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8p9lcpaps1vo-PL/image;s=400x300",
-   "created": "2026-11-14T16:30:46+01:00",
-   "valid_to": "2026-12-14T15:29:44+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 51653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1289,
-     1364,
-     1414
-    ],
-    "r60": [
-     1074,
-     1136,
-     1178
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-14T18:19:32+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1100710371",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-active-automat-fv-marza-kredyt-50-50-CID5-ID1cut35.html",
-   "title": "Toyota Auris Toyota Auris | 1.8 Hybrid | Active | Automat | Fv Marża | Kredyt 50/50",
-   "model": "Auris Hybrid",
-   "price": 54900,
-   "year": 2017,
-   "mileage": 153745,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Kalisz",
-   "region": "Wielkopolskie",
-   "dist_km": 179,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/th3mb9igjc3z1-PL/image;s=400x300",
-   "created": "2026-09-25T17:05:49+02:00",
-   "valid_to": "2026-11-24T17:30:14+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 64553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1611,
-     1686,
-     1735
-    ],
-    "r60": [
-     1342,
-     1405,
-     1446
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-22T20:13:34+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1107573277",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1cXgp7.html",
-   "title": "Toyota Auris",
-   "model": "Auris Hybrid",
-   "price": 48500,
-   "year": 2017,
-   "mileage": 151000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Grójec",
-   "region": "Mazowieckie",
-   "dist_km": 220,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9ru77l0hupo11-PL/image;s=400x300",
-   "created": "2026-10-25T15:49:42+01:00",
-   "valid_to": "2026-11-24T14:48:56+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 58153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1451,
-     1526,
-     1576
-    ],
-    "r60": [
-     1209,
-     1272,
-     1313
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-25T19:09:39+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1110123999",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-1-8-hsd-oc-ac-CID5-ID1d7XXN.html",
-   "title": "Sprzedam Toyota auris 1.8 HSD OC AC",
-   "model": "Auris Hybrid",
-   "price": 45500,
-   "year": 2017,
-   "mileage": 177000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 261,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/30huxdsxb6mp3-PL/image;s=400x300",
-   "created": "2026-11-05T16:39:59+01:00",
-   "valid_to": "2026-12-10T16:48:04+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 55153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1376,
-     1451,
-     1501
-    ],
-    "r60": [
-     1147,
-     1209,
-     1251
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-10T21:51:51+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 45900
-  },
-  {
-   "id": "olx-1108639071",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1d1JFl.html",
-   "title": "Toyota Auris",
-   "model": "Auris Hybrid",
-   "price": 42900,
-   "year": 2017,
-   "mileage": 220300,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 262,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/d26lbbakripf3-PL/image;s=400x300",
-   "created": "2026-10-29T21:11:04+01:00",
-   "valid_to": "2026-11-28T21:06:44+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 52553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1311,
-     1386,
-     1436
-    ],
-    "r60": [
-     1093,
-     1155,
-     1197
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1086796877",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-plug-in-hybrid-radar-led-CID5-ID1by5wT.html",
-   "title": "Toyota Prius Plug-in Hybrid Radar Led",
-   "model": "Prius Plug-in",
-   "price": 58600,
-   "year": 2017,
-   "mileage": 112600,
-   "fuel": "Benzyna",
-   "lpg": false,
-   "city": "Przemyśl",
-   "region": "Podkarpackie",
-   "dist_km": 273,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/xtk8imic68771-PL/image;s=400x300",
-   "created": "2026-07-22T12:08:10+02:00",
-   "valid_to": "2026-12-07T11:06:14+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 68253,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1703,
-     1778,
-     1828
-    ],
-    "r60": [
-     1419,
-     1482,
-     1523
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-07T14:58:16+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1091185830",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-stan-idealny-CID5-ID1bQwhs.html",
-   "title": "Toyota Prius Stan Idealny",
-   "model": "Prius",
-   "price": 58000,
-   "year": 2017,
-   "mileage": 150000,
-   "fuel": "Hybryda Plug-in",
-   "lpg": false,
-   "city": "Ostrołęka",
-   "region": "Mazowieckie",
-   "dist_km": 358,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/a3348gx5fv5k-PL/image;s=400x300",
-   "created": "2026-08-14T22:44:00+02:00",
-   "valid_to": "2026-12-18T06:33:14+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 67653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1688,
-     1763,
-     1813
-    ],
-    "r60": [
-     1407,
-     1469,
-     1511
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1113483855",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-prime-CID5-ID1dm411.html",
-   "title": "Toyota Prius Toyota Prius Prime",
-   "model": "Prius",
-   "price": 47900,
-   "year": 2017,
-   "mileage": 125000,
-   "fuel": "Hybryda Plug-in",
-   "lpg": false,
-   "city": "Kielce",
-   "region": "Świętokrzyskie",
-   "dist_km": 132,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9470nn0bu1cy-PL/image;s=400x300",
-   "created": "2026-11-19T17:45:54+01:00",
-   "valid_to": "2026-12-19T16:44:55+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 57553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1436,
-     1511,
-     1561
-    ],
-    "r60": [
-     1197,
-     1259,
-     1301
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 49900
+   "prev_price": 45500,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1107150173",
@@ -13052,7 +13265,7 @@
    "url": "https://www.olx.pl/d/oferta/toyota-prius-CID5-ID1d6eVh.html",
    "title": "Toyota Prius",
    "model": "Prius",
-   "price": 44900,
+   "price": 43000,
    "year": 2016,
    "mileage": 250000,
    "fuel": "LPG",
@@ -13060,28 +13273,28 @@
    "city": "Warszawa",
    "region": "Mazowieckie",
    "dist_km": 265,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ed5819exbq9h-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/538cwl45ikkq3-PL/image;s=400x300",
    "created": "2026-11-03T20:51:47+01:00",
    "valid_to": "2026-12-03T19:50:41+01:00",
    "business": false,
    "koszt": {
-    "koszt": 49553,
+    "koszt": 47653,
     "lpg_doliczone": 0,
     "r48": [
-     1236,
-     1311,
-     1361
+     1189,
+     1264,
+     1314
     ],
     "r60": [
-     1030,
-     1093,
-     1134
+     991,
+     1053,
+     1095
     ]
    },
    "budget": "out",
    "first_seen": "2026-11-04T00:43:07+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 47500
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 44900
   },
   {
    "id": "olx-1001497404",
@@ -13117,7 +13330,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-08T20:38:01+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -13154,7 +13367,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-08T20:38:01+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -13191,45 +13404,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-03T19:38:59+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
-  },
-  {
-   "id": "olx-1109197880",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-pierwszy-wlasciciel-w-kraju-CID5-ID1d452o.html",
-   "title": "Toyota Prius+ pierwszy właściciel w kraju",
-   "model": "Prius+",
-   "price": 37900,
-   "year": 2016,
-   "mileage": 598000,
-   "fuel": "LPG",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 262,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ngrks20mczli2-PL/image;s=400x300",
-   "created": "2026-11-01T18:05:53+01:00",
-   "valid_to": "2026-12-01T17:04:54+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 47553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1187,
-     1261,
-     1311
-    ],
-    "r60": [
-     989,
-     1051,
-     1093
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-01T20:37:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 39900
   },
   {
    "id": "olx-1108527423",
@@ -13265,8 +13441,45 @@
    },
    "budget": "out",
    "first_seen": "2026-10-29T15:20:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 46000
+  },
+  {
+   "id": "olx-1109197880",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-pierwszy-wlasciciel-w-kraju-CID5-ID1d452o.html",
+   "title": "Toyota Prius+ pierwszy właściciel w kraju",
+   "model": "Prius+",
+   "price": 37900,
+   "year": 2016,
+   "mileage": 598000,
+   "fuel": "LPG",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 262,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ngrks20mczli2-PL/image;s=400x300",
+   "created": "2026-11-01T18:05:53+01:00",
+   "valid_to": "2026-12-01T17:04:54+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 47553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1187,
+     1261,
+     1311
+    ],
+    "r60": [
+     989,
+     1051,
+     1093
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-01T20:37:47+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 39900
   },
   {
    "id": "olx-1109739093",
@@ -13302,44 +13515,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-04T00:43:07+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
-   "id": "olx-1113703737",
+   "id": "olx-1113866107",
    "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-kombi-pelny-serwis-aso-toyota-zadbany-CID5-ID1dmZdw.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Kombi | Pełny serwis ASO Toyota | Zadbany",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-016-kombi-navi-grzane-siedzenia-pdc-radar-CID5-ID1dnFsn.html",
+   "title": "Toyota Auris TOYOTA Auris Hybryda 016 Kombi NAVI Grzane Siedzenia PDC Radar",
    "model": "Auris Hybrid",
-   "price": 41300,
+   "price": 44900,
    "year": 2016,
-   "mileage": 236104,
+   "mileage": 130000,
    "fuel": "CNG i Hybryda",
    "lpg": false,
-   "city": "Szczecin",
-   "region": "Zachodniopomorskie",
-   "dist_km": 466,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7rnnebph8h721-PL/image;s=400x300",
-   "created": "2026-11-20T17:31:47+01:00",
-   "valid_to": "2026-12-20T16:30:51+01:00",
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 251,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/1qfrldj1fqcu2-PL/image;s=400x300",
+   "created": "2026-11-21T14:54:47+01:00",
+   "valid_to": "2026-12-21T13:53:11+01:00",
    "business": false,
    "koszt": {
-    "koszt": 50953,
+    "koszt": 54553,
     "lpg_doliczone": 5000,
     "r48": [
-     1271,
-     1346,
-     1396
+     1361,
+     1436,
+     1486
     ],
     "r60": [
-     1059,
-     1122,
-     1163
+     1134,
+     1197,
+     1238
     ]
    },
    "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1101296869",
@@ -13375,7 +13588,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-25T19:09:39+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 44900
   },
   {
@@ -13412,8 +13625,45 @@
    },
    "budget": "out",
    "first_seen": "2026-10-31T20:06:48+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 46500
+  },
+  {
+   "id": "olx-1113703737",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-kombi-pelny-serwis-aso-toyota-zadbany-CID5-ID1dmZdw.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Kombi | Pełny serwis ASO Toyota | Zadbany",
+   "model": "Auris Hybrid",
+   "price": 41300,
+   "year": 2016,
+   "mileage": 236104,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Szczecin",
+   "region": "Zachodniopomorskie",
+   "dist_km": 466,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7rnnebph8h721-PL/image;s=400x300",
+   "created": "2026-11-20T17:31:47+01:00",
+   "valid_to": "2026-12-20T16:30:51+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 50953,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1271,
+     1346,
+     1396
+    ],
+    "r60": [
+     1059,
+     1122,
+     1163
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1111429227",
@@ -13449,7 +13699,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-11T16:23:40+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 52000
   },
   {
@@ -13486,7 +13736,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-15T15:43:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -13523,7 +13773,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-14T18:19:32+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113475474",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-ii-hybrid-serwisowana-w-aso-CID5-ID1dm1PQ.html",
+   "title": "Toyota Auris Toyota Auris II HYBRID , serwisowana w ASO",
+   "model": "Auris Hybrid",
+   "price": 38500,
+   "year": 2016,
+   "mileage": 355000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Swarzędz",
+   "region": "Wielkopolskie",
+   "dist_km": 274,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/99868x96dn4n1-PL/image;s=400x300",
+   "created": "2026-11-19T17:14:56+01:00",
+   "valid_to": "2026-12-19T16:13:37+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 48153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1202,
+     1276,
+     1326
+    ],
+    "r60": [
+     1001,
+     1064,
+     1105
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-19T23:07:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -13560,7 +13847,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-11T22:53:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 49900
   },
   {
@@ -13597,8 +13884,45 @@
    },
    "budget": "out",
    "first_seen": "2026-10-26T15:18:41+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 48900
+  },
+  {
+   "id": "olx-1110515045",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-skorzana-tapicerka-panoramiczny-dach-hak-CID5-ID1d9BGZ.html",
+   "title": "Toyota Auris Skórzana tapicerka! Panoramiczny dach! HAK!",
+   "model": "Auris Hybrid",
+   "price": 48900,
+   "year": 2016,
+   "mileage": 97672,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 261,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/75bc5hkkyuz5-PL/image;s=400x300",
+   "created": "2026-11-07T16:51:37+01:00",
+   "valid_to": "2026-12-07T16:50:51+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 58553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1461,
+     1536,
+     1586
+    ],
+    "r60": [
+     1217,
+     1280,
+     1321
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1106279636",
@@ -13634,7 +13958,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-20T23:15:04+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 52900
   },
   {
@@ -13671,44 +13995,8 @@
    },
    "budget": "out",
    "first_seen": "2026-10-23T19:59:56+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
-  },
-  {
-   "id": "olx-1110515045",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-skorzana-tapicerka-panoramiczny-dach-hak-CID5-ID1d9BGZ.html",
-   "title": "Toyota Auris Skórzana tapicerka! Panoramiczny dach! HAK!",
-   "model": "Auris Hybrid",
-   "price": 48900,
-   "year": 2016,
-   "mileage": 97672,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 261,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/75bc5hkkyuz5-PL/image;s=400x300",
-   "created": "2026-11-07T16:51:37+01:00",
-   "valid_to": "2026-12-07T16:50:51+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 58553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1461,
-     1536,
-     1586
-    ],
-    "r60": [
-     1217,
-     1280,
-     1321
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
   },
   {
    "id": "olx-1067412474",
@@ -13724,7 +14012,7 @@
    "city": "Warszawa",
    "region": "Mazowieckie",
    "dist_km": 251,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/k83u2zqqwhj-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8t6y0cy34z123-PL/image;s=400x300",
    "created": "2026-04-15T23:57:42+02:00",
    "valid_to": "2026-12-06T22:30:38+01:00",
    "business": false,
@@ -13744,7 +14032,117 @@
    },
    "budget": "out",
    "first_seen": "2026-11-09T18:56:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1099124359",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-sper-stan-CID5-ID1cnOsf.html",
+   "title": "Toyota Auris 1,8 Hybryda Sper stan",
+   "model": "Auris Hybrid",
+   "price": 49900,
+   "year": 2016,
+   "mileage": 150000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Lusina",
+   "region": "Małopolskie",
+   "dist_km": 73,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/08ztjdgpc8iq-PL/image;s=400x300",
+   "created": "2026-09-18T16:05:43+02:00",
+   "valid_to": "2026-12-01T09:29:49+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 59553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1486,
+     1561,
+     1611
+    ],
+    "r60": [
+     1238,
+     1301,
+     1342
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-16T21:59:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 49900
+  },
+  {
+   "id": "olx-1110304914",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1d8J1M.html",
+   "title": "Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 53900,
+   "year": 2016,
+   "mileage": 123275,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Białystok",
+   "region": "Podlaskie",
+   "dist_km": 428,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/n8qpup46v50g-PL/image;s=400x300",
+   "created": "2026-11-06T16:01:25+01:00",
+   "valid_to": "2026-12-06T14:59:39+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 63553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1586,
+     1661,
+     1711
+    ],
+    "r60": [
+     1321,
+     1384,
+     1425
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1111552562",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-automat-2016-rok-CID5-ID1ddXB8.html",
+   "title": "Toyota Prius 1,8 Hybryda Automat 2016 rok",
+   "model": "Prius",
+   "price": 51500,
+   "year": 2016,
+   "mileage": 201000,
+   "fuel": "Hybryda Plug-in",
+   "lpg": false,
+   "city": "Iława",
+   "region": "Warmińsko-mazurskie",
+   "dist_km": 372,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/p8ultwltskcj2-PL/image;s=400x300",
+   "created": "2026-11-11T19:35:49+01:00",
+   "valid_to": "2026-12-11T19:35:49+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 61153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1526,
+     1601,
+     1651
+    ],
+    "r60": [
+     1272,
+     1334,
+     1376
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-11T22:53:20+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -13782,118 +14180,8 @@
    "budget": "out",
    "first_seen": "2026-10-18T18:43:25+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 42000
-  },
-  {
-   "id": "olx-1113475474",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-ii-hybrid-serwisowana-w-aso-CID5-ID1dm1PQ.html",
-   "title": "Toyota Auris Toyota Auris II HYBRID , serwisowana w ASO",
-   "model": "Auris Hybrid",
-   "price": 38500,
-   "year": 2016,
-   "mileage": 355000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Swarzędz",
-   "region": "Wielkopolskie",
-   "dist_km": 274,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/99868x96dn4n1-PL/image;s=400x300",
-   "created": "2026-11-19T17:14:56+01:00",
-   "valid_to": "2026-12-19T16:13:37+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 48153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1202,
-     1276,
-     1326
-    ],
-    "r60": [
-     1001,
-     1064,
-     1105
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1099124359",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-sper-stan-CID5-ID1cnOsf.html",
-   "title": "Toyota Auris 1,8 Hybryda Sper stan",
-   "model": "Auris Hybrid",
-   "price": 49900,
-   "year": 2016,
-   "mileage": 150000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Lusina",
-   "region": "Małopolskie",
-   "dist_km": 73,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/08ztjdgpc8iq-PL/image;s=400x300",
-   "created": "2026-09-18T16:05:43+02:00",
-   "valid_to": "2026-12-01T09:29:49+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 59553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1486,
-     1561,
-     1611
-    ],
-    "r60": [
-     1238,
-     1301,
-     1342
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 49900
-  },
-  {
-   "id": "olx-1111552562",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-1-8-hybryda-automat-2016-rok-CID5-ID1ddXB8.html",
-   "title": "Toyota Prius 1,8 Hybryda Automat 2016 rok",
-   "model": "Prius",
-   "price": 51500,
-   "year": 2016,
-   "mileage": 201000,
-   "fuel": "Hybryda Plug-in",
-   "lpg": false,
-   "city": "Iława",
-   "region": "Warmińsko-mazurskie",
-   "dist_km": 372,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/p8ultwltskcj2-PL/image;s=400x300",
-   "created": "2026-11-11T19:35:49+01:00",
-   "valid_to": "2026-12-11T19:35:49+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 61153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1526,
-     1601,
-     1651
-    ],
-    "r60": [
-     1272,
-     1334,
-     1376
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-11T22:53:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
+   "prev_price": 42000,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1104826509",
@@ -15489,6 +15777,42 @@
    "missing_since": "2026-10-17T09:03:40+00:00"
   },
   {
+   "id": "olx-1113801456",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-hybrid-lpg-7-osob-CID5-ID1dnoDC.html",
+   "title": "Toyota Prius+ (Hybrid) + LPG 7 osob",
+   "model": "Prius+",
+   "price": 49950,
+   "year": 2015,
+   "mileage": 385000,
+   "fuel": "Benzyna",
+   "lpg": true,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 265,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/1f1nugnwpnp22-PL/image;s=400x300",
+   "created": "2026-11-21T09:57:53+01:00",
+   "valid_to": "2026-12-21T10:04:04+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 54603,
+    "lpg_doliczone": 0,
+    "r48": [
+     1362,
+     1437,
+     1487
+    ],
+    "r60": [
+     1135,
+     1198,
+     1239
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
    "id": "olx-1102673669",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-v-CID5-ID1cCHNb.html",
@@ -15522,7 +15846,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 47000
   },
   {
@@ -15559,7 +15883,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1104300844",
@@ -15595,7 +15920,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 35500
   },
   {
@@ -15632,7 +15957,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-06T16:00:58+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -15669,7 +15994,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-26T15:18:41+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -15706,7 +16031,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1110847716",
@@ -15742,191 +16068,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-09T18:56:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1110699271",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-CID5-ID1danCn.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid",
-   "model": "Auris Hybrid",
-   "price": 43500,
-   "year": 2015,
-   "mileage": 220000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Puławy",
-   "region": "Lubelskie",
-   "dist_km": 243,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/vl8kfah16zz73-PL/image;s=400x300",
-   "created": "2026-11-08T15:42:46+01:00",
-   "valid_to": "2026-12-08T14:41:08+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 53153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1326,
-     1401,
-     1451
-    ],
-    "r60": [
-     1105,
-     1168,
-     1209
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-08T15:24:17+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 42500
-  },
-  {
-   "id": "olx-1107799721",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1cYdjr.html",
-   "title": "Toyota Auris",
-   "model": "Auris Hybrid",
-   "price": 33999,
-   "year": 2015,
-   "mileage": 277000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Wrocław",
-   "region": "Dolnośląskie",
-   "dist_km": 169,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/1ude5zvkplac2-PL/image;s=400x300",
-   "created": "2026-10-26T15:16:11+01:00",
-   "valid_to": "2026-11-25T14:14:19+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 43652,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1089,
-     1164,
-     1214
-    ],
-    "r60": [
-     908,
-     970,
-     1012
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-26T15:18:41+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 34900
-  },
-  {
-   "id": "olx-1104647356",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-comfort-oryginalny-lakier-bezwypadkowy-CID5-ID1cKZeQ.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Comfort – Oryginalny lakier – Bezwypadkowy",
-   "model": "Auris Hybrid",
-   "price": 33800,
-   "year": 2015,
-   "mileage": 282000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Wieliczka",
-   "region": "Małopolskie",
-   "dist_km": 80,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/zp8oo9zu8opw1-PL/image;s=400x300",
-   "created": "2026-10-13T13:43:48+02:00",
-   "valid_to": "2026-12-18T15:40:14+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 43453,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1084,
-     1159,
-     1209
-    ],
-    "r60": [
-     904,
-     966,
-     1007
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 34800
-  },
-  {
-   "id": "olx-1112176341",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-1-8-hybryda-2015r-zadbana-bogata-wersja-wyposazenia-CID5-ID1dgzS5.html",
-   "title": "Sprzedam Toyota Auris 1.8 Hybryda 2015r zadbana, bogata wersja wyposażenia",
-   "model": "Auris Hybrid",
-   "price": 46500,
-   "year": 2015,
-   "mileage": 198000,
-   "fuel": "Hybryda Plug-in",
-   "lpg": false,
-   "city": "Mszana Dolna",
-   "region": "Małopolskie",
-   "dist_km": 100,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8jp705dds8lk-PL/image;s=400x300",
-   "created": "2026-11-14T19:03:20+01:00",
-   "valid_to": "2026-12-14T19:04:44+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 56153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1401,
-     1476,
-     1526
-    ],
-    "r60": [
-     1168,
-     1230,
-     1272
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1110349484",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-99km-alu-navi-kamera-serwis-z-niemiec-CID5-ID1d8UCE.html",
-   "title": "Toyota Auris 1.8-Hybryda 99KM # Alu # Navi # Kamera # Serwis # Z Niemiec #",
-   "model": "Auris Hybrid",
-   "price": 39999,
-   "year": 2015,
-   "mileage": 223700,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Legionowo",
-   "region": "Mazowieckie",
-   "dist_km": 272,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/r02och8jm875-PL/image;s=400x300",
-   "created": "2026-11-06T18:08:33+01:00",
-   "valid_to": "2026-12-06T17:07:50+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 49652,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1239,
-     1314,
-     1364
-    ],
-    "r60": [
-     1032,
-     1095,
-     1136
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-06T21:39:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -15963,8 +16105,119 @@
    },
    "budget": "out",
    "first_seen": "2026-10-31T14:37:34+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 48600
+  },
+  {
+   "id": "olx-1110699271",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-CID5-ID1danCn.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid",
+   "model": "Auris Hybrid",
+   "price": 43500,
+   "year": 2015,
+   "mileage": 220000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Puławy",
+   "region": "Lubelskie",
+   "dist_km": 243,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/vl8kfah16zz73-PL/image;s=400x300",
+   "created": "2026-11-08T15:42:46+01:00",
+   "valid_to": "2026-12-08T14:41:08+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 53153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1326,
+     1401,
+     1451
+    ],
+    "r60": [
+     1105,
+     1168,
+     1209
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-08T15:24:17+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 42500
+  },
+  {
+   "id": "olx-1104647356",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-comfort-oryginalny-lakier-bezwypadkowy-CID5-ID1cKZeQ.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid Comfort – Oryginalny lakier – Bezwypadkowy",
+   "model": "Auris Hybrid",
+   "price": 33800,
+   "year": 2015,
+   "mileage": 282000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wieliczka",
+   "region": "Małopolskie",
+   "dist_km": 80,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/zp8oo9zu8opw1-PL/image;s=400x300",
+   "created": "2026-10-13T13:43:48+02:00",
+   "valid_to": "2026-12-18T15:40:14+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 43453,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1084,
+     1159,
+     1209
+    ],
+    "r60": [
+     904,
+     966,
+     1007
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-16T21:59:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 34800
+  },
+  {
+   "id": "olx-1107799721",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1cYdjr.html",
+   "title": "Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 33999,
+   "year": 2015,
+   "mileage": 277000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wrocław",
+   "region": "Dolnośląskie",
+   "dist_km": 169,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/1ude5zvkplac2-PL/image;s=400x300",
+   "created": "2026-10-26T15:16:11+01:00",
+   "valid_to": "2026-11-25T14:14:19+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 43652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1089,
+     1164,
+     1214
+    ],
+    "r60": [
+     908,
+     970,
+     1012
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-26T15:18:41+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 34900
   },
   {
    "id": "olx-1110334916",
@@ -16000,7 +16253,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-06T21:39:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -16037,80 +16290,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1107966131",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-dach-panoramiczny-kamera-aso-toyoty-2-klu-CID5-ID1cYUBt.html",
-   "title": "Toyota Auris Toyota Auris Hybryda Automat Dach panoramiczny kamera ASO Toyoty 2 klu",
-   "model": "Auris Hybrid",
-   "price": 38800,
-   "year": 2015,
-   "mileage": 299502,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Poznań",
-   "region": "Wielkopolskie",
-   "dist_km": 280,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/cf6u9y8cf43f2-PL/image;s=400x300",
-   "created": "2026-10-27T12:15:49+01:00",
-   "valid_to": "2026-11-26T11:14:57+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 48453,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1209,
-     1284,
-     1334
-    ],
-    "r60": [
-     1007,
-     1070,
-     1111
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-31T14:37:34+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 39500
-  },
-  {
-   "id": "olx-1113245127",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-2015-automat-bezwypadkowa-CID5-ID1dl3Uz.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid 2015 Automat Bezwypadkowa",
-   "model": "Auris Hybrid",
-   "price": 49000,
-   "year": 2015,
-   "mileage": 124792,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Kielce",
-   "region": "Świętokrzyskie",
-   "dist_km": 132,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/38peg4mlgl42-PL/image;s=400x300",
-   "created": "2026-11-18T20:40:53+01:00",
-   "valid_to": "2026-12-18T19:39:26+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 58653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1464,
-     1538,
-     1588
-    ],
-    "r60": [
-     1220,
-     1282,
-     1324
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -16147,7 +16327,81 @@
    },
    "budget": "out",
    "first_seen": "2026-10-29T15:20:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1107966131",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-dach-panoramiczny-kamera-aso-toyoty-2-klu-CID5-ID1cYUBt.html",
+   "title": "Toyota Auris Toyota Auris Hybryda Automat Dach panoramiczny kamera ASO Toyoty 2 klu",
+   "model": "Auris Hybrid",
+   "price": 38800,
+   "year": 2015,
+   "mileage": 299502,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Poznań",
+   "region": "Wielkopolskie",
+   "dist_km": 280,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/cf6u9y8cf43f2-PL/image;s=400x300",
+   "created": "2026-10-27T12:15:49+01:00",
+   "valid_to": "2026-11-26T11:14:57+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 48453,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1209,
+     1284,
+     1334
+    ],
+    "r60": [
+     1007,
+     1070,
+     1111
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-31T14:37:34+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 39500
+  },
+  {
+   "id": "olx-1113245127",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-2015-automat-bezwypadkowa-CID5-ID1dl3Uz.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid 2015 Automat Bezwypadkowa",
+   "model": "Auris Hybrid",
+   "price": 49000,
+   "year": 2015,
+   "mileage": 124792,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Kielce",
+   "region": "Świętokrzyskie",
+   "dist_km": 132,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/38peg4mlgl42-PL/image;s=400x300",
+   "created": "2026-11-18T20:40:53+01:00",
+   "valid_to": "2026-12-18T19:39:26+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 58653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1464,
+     1538,
+     1588
+    ],
+    "r60": [
+     1220,
+     1282,
+     1324
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-19T23:07:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -16184,7 +16438,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-27T05:18:18+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 51900
   },
   {
@@ -16193,7 +16447,7 @@
    "url": "https://www.olx.pl/d/oferta/toyota-auris-sliczny-kolor-metalik-perla-1-8i-hybryda-xenon-kamera-cofania-automat-CID5-ID1cYWJ2.html",
    "title": "Toyota Auris Śliczny kolor metalik perła 1.8i hybryda Xenon kamera cofania automat",
    "model": "Auris Hybrid",
-   "price": 35250,
+   "price": 35200,
    "year": 2015,
    "mileage": 218000,
    "fuel": "CNG i Hybryda",
@@ -16201,28 +16455,28 @@
    "city": "Inowrocław",
    "region": "Kujawsko-pomorskie",
    "dist_km": 286,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/pvl4k3wc43y02-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/46nzufta3b482-PL/image;s=400x300",
    "created": "2026-10-27T12:33:07+01:00",
    "valid_to": "2026-11-26T11:31:33+01:00",
    "business": false,
    "koszt": {
-    "koszt": 44903,
+    "koszt": 44853,
     "lpg_doliczone": 5000,
     "r48": [
-     1120,
-     1195,
-     1245
+     1119,
+     1194,
+     1244
     ],
     "r60": [
-     934,
-     996,
-     1038
+     933,
+     995,
+     1037
     ]
    },
    "budget": "out",
    "first_seen": "2026-10-27T14:41:33+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 35300
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 35250
   },
   {
    "id": "olx-1113099442",
@@ -16258,7 +16512,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1110349484",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-99km-alu-navi-kamera-serwis-z-niemiec-CID5-ID1d8UCE.html",
+   "title": "Toyota Auris 1.8-Hybryda 99KM # Alu # Navi # Kamera # Serwis # Z Niemiec #",
+   "model": "Auris Hybrid",
+   "price": 39999,
+   "year": 2015,
+   "mileage": 223700,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Legionowo",
+   "region": "Mazowieckie",
+   "dist_km": 272,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/elumnh8yaans3-PL/image;s=400x300",
+   "created": "2026-11-06T18:08:33+01:00",
+   "valid_to": "2026-12-06T17:07:50+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 49652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1239,
+     1314,
+     1364
+    ],
+    "r60": [
+     1032,
+     1095,
+     1136
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-06T21:39:08+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -16295,7 +16586,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113751245",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-2015-2016-bezwypadkowy-salon-pl-serwisowany-bdb-stan-led-CID5-ID1dnbzL.html",
+   "title": "Lexus CT 2015/2016 | BEZWYPADKOWY | Salon PL | Serwisowany | BDB STAN | LED",
+   "model": "Lexus CT",
+   "price": 55555,
+   "year": 2015,
+   "mileage": 163000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Kraków",
+   "region": "Małopolskie",
+   "dist_km": 69,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/u3y3hykzkk3c3-PL/image;s=400x300",
+   "created": "2026-11-20T21:28:43+01:00",
+   "valid_to": "2026-12-20T20:27:25+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 65208,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1627,
+     1702,
+     1752
+    ],
+    "r60": [
+     1356,
+     1418,
+     1460
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1110581754",
@@ -16331,81 +16659,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-07T23:43:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1110249737",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-1-8-hsd-136km-kamera-pdc-serwisowany-bardzo-ladny-stan-CID5-ID1d8uFP.html",
-   "title": "Lexus CT 1.8 HSD 136KM Kamera PDC Serwisowany Bardzo Ładny Stan",
-   "model": "Lexus CT",
-   "price": 44900,
-   "year": 2015,
-   "mileage": 200000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Otwock Mały",
-   "region": "Mazowieckie",
-   "dist_km": 253,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/yadjn6vfcywg3-PL/image;s=400x300",
-   "created": "2026-11-06T11:51:57+01:00",
-   "valid_to": "2026-12-06T11:48:48+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 54553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1361,
-     1436,
-     1486
-    ],
-    "r60": [
-     1134,
-     1197,
-     1238
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-06T16:00:58+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1100780568",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct200h-pierwszy-wlasciciel-stan-idealny-bezwypadkowy-97-000km-CID5-ID1cuLji.html",
-   "title": "Lexus CT Lexus CT200H Pierwszy właściciel, stan idealny, bezwypadkowy, 97.000km",
-   "model": "Lexus CT",
-   "price": 56900,
-   "year": 2015,
-   "mileage": 97000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 261,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ksc95dndgeh63-PL/image;s=400x300",
-   "created": "2026-09-26T00:19:43+02:00",
-   "valid_to": "2026-12-18T15:08:47+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 66553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1661,
-     1735,
-     1785
-    ],
-    "r60": [
-     1384,
-     1446,
-     1488
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -16442,8 +16696,119 @@
    },
    "budget": "out",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1110249737",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-1-8-hsd-136km-kamera-pdc-serwisowany-bardzo-ladny-stan-CID5-ID1d8uFP.html",
+   "title": "Lexus CT 1.8 HSD 136KM Kamera PDC Serwisowany Bardzo Ładny Stan",
+   "model": "Lexus CT",
+   "price": 44900,
+   "year": 2015,
+   "mileage": 200000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Otwock Mały",
+   "region": "Mazowieckie",
+   "dist_km": 253,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/yadjn6vfcywg3-PL/image;s=400x300",
+   "created": "2026-11-06T11:51:57+01:00",
+   "valid_to": "2026-12-06T11:48:48+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 54553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1361,
+     1436,
+     1486
+    ],
+    "r60": [
+     1134,
+     1197,
+     1238
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-06T16:00:58+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1100780568",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct200h-pierwszy-wlasciciel-stan-idealny-bezwypadkowy-97-000km-CID5-ID1cuLji.html",
+   "title": "Lexus CT Lexus CT200H Pierwszy właściciel, stan idealny, bezwypadkowy, 97.000km",
+   "model": "Lexus CT",
+   "price": 56900,
+   "year": 2015,
+   "mileage": 97000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 261,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ksc95dndgeh63-PL/image;s=400x300",
+   "created": "2026-09-26T00:19:43+02:00",
+   "valid_to": "2026-12-18T15:08:47+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 66553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1661,
+     1735,
+     1785
+    ],
+    "r60": [
+     1384,
+     1446,
+     1488
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-19T23:07:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1112176341",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/sprzedam-toyota-auris-1-8-hybryda-2015r-zadbana-bogata-wersja-wyposazenia-CID5-ID1dgzS5.html",
+   "title": "Sprzedam Toyota Auris 1.8 Hybryda 2015r zadbana, bogata wersja wyposażenia",
+   "model": "Auris Hybrid",
+   "price": 46500,
+   "year": 2015,
+   "mileage": 198000,
+   "fuel": "Hybryda Plug-in",
+   "lpg": false,
+   "city": "Mszana Dolna",
+   "region": "Małopolskie",
+   "dist_km": 100,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8jp705dds8lk-PL/image;s=400x300",
+   "created": "2026-11-14T19:03:20+01:00",
+   "valid_to": "2026-12-14T19:04:44+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 56153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1401,
+     1476,
+     1526
+    ],
+    "r60": [
+     1168,
+     1230,
+     1272
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1110391307",
@@ -18035,7 +18400,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-03T12:06:34+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18072,7 +18437,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-13T19:57:06+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18109,7 +18474,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-08T15:24:17+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1107247895",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-stan-bdb-kombi-skory-serwisowana-CID5-ID1cWTL1.html",
+   "title": "Toyota Auris Toyota Auris hybryda stan bdb,kombi ,skóry serwisowana",
+   "model": "Auris Hybrid",
+   "price": 41500,
+   "year": 2014,
+   "mileage": 189900,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Słupsk",
+   "region": "Pomorskie",
+   "dist_km": 486,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7hvxw4q8yx2w1-PL/image;s=400x300",
+   "created": "2026-10-23T20:19:51+02:00",
+   "valid_to": "2026-11-22T19:18:07+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 51153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1276,
+     1351,
+     1401
+    ],
+    "r60": [
+     1064,
+     1126,
+     1168
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18146,8 +18548,82 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 39900
+  },
+  {
+   "id": "olx-1112417368",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-2014-hatchback-szklany-dach-CID5-ID1dhAzC.html",
+   "title": "Toyota Auris Toyota Auris Hybrid 2014 | Hatchback | Szklany dach",
+   "model": "Auris Hybrid",
+   "price": 48500,
+   "year": 2014,
+   "mileage": 116073,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Bielsko-Biała",
+   "region": "Śląskie",
+   "dist_km": 49,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/sysr6iy9ajm52-PL/image;s=400x300",
+   "created": "2026-11-15T23:10:42+01:00",
+   "valid_to": "2026-12-15T22:09:35+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 58153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1451,
+     1526,
+     1576
+    ],
+    "r60": [
+     1209,
+     1272,
+     1313
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-16T06:50:43+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 52500
+  },
+  {
+   "id": "olx-1113614473",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-hybryd-1-8-lpg-na-gwarancji-bateria-na-gwarancji-CID5-ID1dmBZL.html",
+   "title": "TOYOTA AURIS HYBRYD 1,8+LPG na gwarancji,bateria na gwarancji,",
+   "model": "Auris Hybrid",
+   "price": 41500,
+   "year": 2014,
+   "mileage": 242000,
+   "fuel": "Benzyna",
+   "lpg": true,
+   "city": "Kraków",
+   "region": "Małopolskie",
+   "dist_km": 77,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/sayuvzvda3j51-PL/image;s=400x300",
+   "created": "2026-11-20T10:03:35+01:00",
+   "valid_to": "2026-12-20T10:41:01+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 46153,
+    "lpg_doliczone": 0,
+    "r48": [
+     1152,
+     1226,
+     1276
+    ],
+    "r60": [
+     960,
+     1022,
+     1064
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112141488",
@@ -18183,81 +18659,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-14T18:19:32+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1112417368",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybrid-2014-hatchback-szklany-dach-CID5-ID1dhAzC.html",
-   "title": "Toyota Auris Toyota Auris Hybrid 2014 | Hatchback | Szklany dach",
-   "model": "Auris Hybrid",
-   "price": 52500,
-   "year": 2014,
-   "mileage": 116073,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Bielsko-Biała",
-   "region": "Śląskie",
-   "dist_km": 49,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/aryz8zqf1h8w-PL/image;s=400x300",
-   "created": "2026-11-15T23:10:42+01:00",
-   "valid_to": "2026-12-15T22:09:35+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 62153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1551,
-     1626,
-     1676
-    ],
-    "r60": [
-     1292,
-     1355,
-     1396
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-16T06:50:43+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1112960383",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-automat-bezwypadkowa-serwisowana-CID5-ID1djRPW.html",
-   "title": "Toyota Auris Toyota Auris 1.8 Hybrid | Automat | Bezwypadkowa | Serwisowana",
-   "model": "Auris Hybrid",
-   "price": 38470,
-   "year": 2014,
-   "mileage": 174224,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Gdańsk",
-   "region": "Pomorskie",
-   "dist_km": 458,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/90nqdpzdwwzc1-PL/image;s=400x300",
-   "created": "2026-11-18T00:58:47+01:00",
-   "valid_to": "2026-12-17T23:57:42+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 48123,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1201,
-     1276,
-     1326
-    ],
-    "r60": [
-     1001,
-     1063,
-     1105
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18294,44 +18696,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-16T18:41:59+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1111212744",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1dcxcc.html",
-   "title": "Toyota Auris",
-   "model": "Auris Hybrid",
-   "price": 34500,
-   "year": 2014,
-   "mileage": 230777,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Konin",
-   "region": "Wielkopolskie",
-   "dist_km": 223,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/tmcg514fdb473-PL/image;s=400x300",
-   "created": "2026-11-10T15:29:56+01:00",
-   "valid_to": "2026-12-10T15:28:31+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 44153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1102,
-     1177,
-     1226
-    ],
-    "r60": [
-     918,
-     980,
-     1022
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-10T21:51:51+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18368,80 +18733,45 @@
    },
    "budget": "out",
    "first_seen": "2026-10-27T20:49:21+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 39950
   },
   {
-   "id": "olx-1107247895",
+   "id": "olx-1111212744",
    "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-stan-bdb-kombi-skory-serwisowana-CID5-ID1cWTL1.html",
-   "title": "Toyota Auris Toyota Auris hybryda stan bdb,kombi ,skóry serwisowana",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1dcxcc.html",
+   "title": "Toyota Auris",
    "model": "Auris Hybrid",
-   "price": 41500,
+   "price": 34500,
    "year": 2014,
-   "mileage": 189900,
-   "fuel": "Benzyna",
+   "mileage": 230777,
+   "fuel": "CNG i Hybryda",
    "lpg": false,
-   "city": "Słupsk",
-   "region": "Pomorskie",
-   "dist_km": 486,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/7hvxw4q8yx2w1-PL/image;s=400x300",
-   "created": "2026-10-23T20:19:51+02:00",
-   "valid_to": "2026-11-22T19:18:07+01:00",
-   "business": false,
+   "city": "Konin",
+   "region": "Wielkopolskie",
+   "dist_km": 223,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/tmcg514fdb473-PL/image;s=400x300",
+   "created": "2026-11-10T15:29:56+01:00",
+   "valid_to": "2026-12-10T15:28:31+01:00",
+   "business": true,
    "koszt": {
-    "koszt": 51153,
+    "koszt": 44153,
     "lpg_doliczone": 5000,
     "r48": [
-     1276,
-     1351,
-     1401
+     1102,
+     1177,
+     1226
     ],
     "r60": [
-     1064,
-     1126,
-     1168
+     918,
+     980,
+     1022
     ]
    },
    "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1113614473",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-hybryd-1-8-lpg-na-gwarancji-bateria-na-gwarancji-CID5-ID1dmBZL.html",
-   "title": "TOYOTA AURIS HYBRYD 1,8+LPG na gwarancji,bateria na gwarancji,",
-   "model": "Auris Hybrid",
-   "price": 41500,
-   "year": 2014,
-   "mileage": 242000,
-   "fuel": "Benzyna",
-   "lpg": true,
-   "city": "Kraków",
-   "region": "Małopolskie",
-   "dist_km": 77,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/sayuvzvda3j51-PL/image;s=400x300",
-   "created": "2026-11-20T10:03:35+01:00",
-   "valid_to": "2026-12-20T10:41:01+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 46153,
-    "lpg_doliczone": 0,
-    "r48": [
-     1152,
-     1226,
-     1276
-    ],
-    "r60": [
-     960,
-     1022,
-     1064
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "first_seen": "2026-11-10T21:51:51+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1097600737",
@@ -18477,82 +18807,8 @@
    },
    "budget": "out",
    "first_seen": "2026-10-23T13:37:03+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
-  },
-  {
-   "id": "olx-1106766825",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-klima-kamera-serwis-aso-bezwypadek-zarejestrowany-CID5-ID1cTSBP.html",
-   "title": "Toyota Auris 1.8 Hybrid Klima Kamera  Serwis ASO Bezwypadek Zarejestrowany",
-   "model": "Auris Hybrid",
-   "price": 34990,
-   "year": 2014,
-   "mileage": 309877,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Skrzeszew",
-   "region": "Mazowieckie",
-   "dist_km": 277,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/q2kcujdq9ru4-PL/image;s=400x300",
-   "created": "2026-10-22T08:30:35+02:00",
-   "valid_to": "2026-11-21T08:28:53+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 44643,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1114,
-     1189,
-     1239
-    ],
-    "r60": [
-     928,
-     991,
-     1032
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-22T13:56:02+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 33990
-  },
-  {
-   "id": "olx-1106891418",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-aso-toyoty-do-konca-kamera-biala-perla-CID5-ID1cUp1o.html",
-   "title": "Toyota Auris Toyota Auris Hybryda Automat ASO Toyoty do końca kamera biała perła!!",
-   "model": "Auris Hybrid",
-   "price": 36900,
-   "year": 2014,
-   "mileage": 301565,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Poznań",
-   "region": "Wielkopolskie",
-   "dist_km": 280,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/81a69yx1lpta3-PL/image;s=400x300",
-   "created": "2026-10-22T14:42:53+02:00",
-   "valid_to": "2026-11-21T13:39:20+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 46553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1162,
-     1236,
-     1286
-    ],
-    "r60": [
-     968,
-     1030,
-     1072
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-22T13:56:02+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 36500
   },
   {
    "id": "olx-1112342335",
@@ -18588,7 +18844,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-15T21:08:00+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18625,44 +18881,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-08T20:38:01+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1113505140",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-salon-polska-kamera-cofania-CID5-ID1dm9yk.html",
-   "title": "Toyota Auris salon Polska, Kamera cofania",
-   "model": "Auris Hybrid",
-   "price": 39900,
-   "year": 2014,
-   "mileage": 273597,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "dist_km": 256,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8qvybzxx27h91-PL/image;s=400x300",
-   "created": "2026-11-19T19:06:07+01:00",
-   "valid_to": "2026-12-19T19:03:16+01:00",
-   "business": true,
-   "koszt": {
-    "koszt": 49553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1236,
-     1311,
-     1361
-    ],
-    "r60": [
-     1030,
-     1093,
-     1134
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18699,7 +18918,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-11T16:23:40+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18736,7 +18955,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 44900
   },
   {
@@ -18773,7 +18992,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113505140",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-salon-polska-kamera-cofania-CID5-ID1dm9yk.html",
+   "title": "Toyota Auris salon Polska, Kamera cofania",
+   "model": "Auris Hybrid",
+   "price": 39900,
+   "year": 2014,
+   "mileage": 273597,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Warszawa",
+   "region": "Mazowieckie",
+   "dist_km": 256,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8qvybzxx27h91-PL/image;s=400x300",
+   "created": "2026-11-19T19:06:07+01:00",
+   "valid_to": "2026-12-19T19:03:16+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 49553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1236,
+     1311,
+     1361
+    ],
+    "r60": [
+     1030,
+     1093,
+     1134
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-19T23:07:52+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -18810,7 +19066,195 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1113872481",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct200h-z-2014r-zadbany-ekonomiczny-CID5-ID1dnH7b.html",
+   "title": "Lexus CT Lexus CT200h z 2014r, zadbany, ekonomiczny",
+   "model": "Lexus CT",
+   "price": 36500,
+   "year": 2014,
+   "mileage": 246600,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Dzierżoniów",
+   "region": "Dolnośląskie",
+   "dist_km": 175,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/9mnu569du4k73-PL/image;s=400x300",
+   "created": "2026-11-21T15:20:58+01:00",
+   "valid_to": "2026-12-21T14:17:12+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 46153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1152,
+     1226,
+     1276
+    ],
+    "r60": [
+     960,
+     1022,
+     1064
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1082515334",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-iii-1-8-hybryda-plugin-CID5-ID1bg7GK.html",
+   "title": "Toyota Prius Toyota Prius III 1.8 Hybryda Plugin",
+   "model": "Prius Plug-in",
+   "price": 37500,
+   "year": 2014,
+   "mileage": 237981,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Ostrowiec Świętokrzyski",
+   "region": "Świętokrzyskie",
+   "dist_km": 183,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ulpm3w0v1evj3-PL/image;s=400x300",
+   "created": "2026-06-28T22:10:54+02:00",
+   "valid_to": "2026-11-24T18:51:58+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 47153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1177,
+     1251,
+     1301
+    ],
+    "r60": [
+     980,
+     1043,
+     1084
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-16T22:02:59+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 39900
+  },
+  {
+   "id": "olx-1112960383",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-1-8-hybrid-automat-bezwypadkowa-serwisowana-CID5-ID1djRPW.html",
+   "title": "Toyota Auris Toyota Auris 1.8 Hybrid | Automat | Bezwypadkowa | Serwisowana",
+   "model": "Auris Hybrid",
+   "price": 38470,
+   "year": 2014,
+   "mileage": 174224,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Gdańsk",
+   "region": "Pomorskie",
+   "dist_km": 458,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/90nqdpzdwwzc1-PL/image;s=400x300",
+   "created": "2026-11-18T00:58:47+01:00",
+   "valid_to": "2026-12-17T23:57:42+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 48123,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1201,
+     1276,
+     1326
+    ],
+    "r60": [
+     1001,
+     1063,
+     1105
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-18T07:44:53+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1106766825",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybrid-klima-kamera-serwis-aso-bezwypadek-zarejestrowany-CID5-ID1cTSBP.html",
+   "title": "Toyota Auris 1.8 Hybrid Klima Kamera  Serwis ASO Bezwypadek Zarejestrowany",
+   "model": "Auris Hybrid",
+   "price": 34990,
+   "year": 2014,
+   "mileage": 309877,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Skrzeszew",
+   "region": "Mazowieckie",
+   "dist_km": 277,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/q2kcujdq9ru4-PL/image;s=400x300",
+   "created": "2026-10-22T08:30:35+02:00",
+   "valid_to": "2026-11-21T08:28:53+01:00",
+   "business": true,
+   "koszt": {
+    "koszt": 44643,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1114,
+     1189,
+     1239
+    ],
+    "r60": [
+     928,
+     991,
+     1032
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-22T13:56:02+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": 33990,
+   "missing_since": "2026-11-21T21:44:29+00:00"
+  },
+  {
+   "id": "olx-1106891418",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-toyota-auris-hybryda-automat-aso-toyoty-do-konca-kamera-biala-perla-CID5-ID1cUp1o.html",
+   "title": "Toyota Auris Toyota Auris Hybryda Automat ASO Toyoty do końca kamera biała perła!!",
+   "model": "Auris Hybrid",
+   "price": 36900,
+   "year": 2014,
+   "mileage": 301565,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Poznań",
+   "region": "Wielkopolskie",
+   "dist_km": 280,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/81a69yx1lpta3-PL/image;s=400x300",
+   "created": "2026-10-22T14:42:53+02:00",
+   "valid_to": "2026-11-21T13:39:20+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 46553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1162,
+     1236,
+     1286
+    ],
+    "r60": [
+     968,
+     1030,
+     1072
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-22T13:56:02+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": 36500,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1108327165",
@@ -18847,44 +19291,8 @@
    "budget": "out",
    "first_seen": "2026-10-28T21:12:25+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 48800
-  },
-  {
-   "id": "olx-1082515334",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-toyota-prius-iii-1-8-hybryda-plugin-CID5-ID1bg7GK.html",
-   "title": "Toyota Prius Toyota Prius III 1.8 Hybryda Plugin",
-   "model": "Prius Plug-in",
-   "price": 37500,
-   "year": 2014,
-   "mileage": 237981,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Ostrowiec Świętokrzyski",
-   "region": "Świętokrzyskie",
-   "dist_km": 183,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ulpm3w0v1evj3-PL/image;s=400x300",
-   "created": "2026-06-28T22:10:54+02:00",
-   "valid_to": "2026-11-24T18:51:58+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 47153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1177,
-     1251,
-     1301
-    ],
-    "r60": [
-     980,
-     1043,
-     1084
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-16T22:02:59+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 39900
+   "prev_price": 48800,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1107341337",
@@ -19988,42 +20396,6 @@
    "missing_since": "2026-10-19T21:10:50+00:00"
   },
   {
-   "id": "olx-1113680471",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-auto-z-austrii-stan-bdb-silnik-130-tys-km-CID5-ID1dmTaf.html",
-   "title": "Toyota Prius+ Auto z Austrii stan bdb silnik 130 tys km",
-   "model": "Prius+",
-   "price": 32999,
-   "year": 2013,
-   "mileage": 300000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Lubsko",
-   "region": "Lubuskie",
-   "dist_km": 330,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/wxc6edapj0ke-PL/image;s=400x300",
-   "created": "2026-11-20T15:30:50+01:00",
-   "valid_to": "2026-12-20T14:26:34+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 42652,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1064,
-     1139,
-     1189
-    ],
-    "r60": [
-     887,
-     949,
-     991
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
    "id": "olx-1111665878",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/toyota-prius-7osob-acc-full-led-prywatny-plus-panorama-podgrzewane-fotele-udokemnto-CID5-ID1der4O.html",
@@ -20057,8 +20429,45 @@
    },
    "budget": "out",
    "first_seen": "2026-11-12T16:54:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 48900
+  },
+  {
+   "id": "olx-1113680471",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-auto-z-austrii-stan-bdb-silnik-130-tys-km-CID5-ID1dmTaf.html",
+   "title": "Toyota Prius+ Auto z Austrii stan bdb silnik 130 tys km",
+   "model": "Prius+",
+   "price": 32999,
+   "year": 2013,
+   "mileage": 300000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Lubsko",
+   "region": "Lubuskie",
+   "dist_km": 330,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/wxc6edapj0ke-PL/image;s=400x300",
+   "created": "2026-11-20T15:30:50+01:00",
+   "valid_to": "2026-12-20T14:26:34+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 42652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1064,
+     1139,
+     1189
+    ],
+    "r60": [
+     887,
+     949,
+     991
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1107262909",
@@ -20094,7 +20503,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-23T19:59:56+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -20131,7 +20540,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-04T12:19:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -20168,7 +20577,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-06T21:39:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -20205,7 +20614,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-17T13:39:49+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -20242,8 +20651,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-19T23:07:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1109963664",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-1-8-hybryda-kamera-szklany-dach-nawigacja-CID5-ID1d7ifK.html",
+   "title": "Toyota Auris 1,8 Hybryda !! Kamera !! Szklany dach !! Nawigacja !!",
+   "model": "Auris Hybrid",
+   "price": 42500,
+   "year": 2013,
+   "mileage": 141000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Przysietnica",
+   "region": "Podkarpackie",
+   "dist_km": 225,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/apt4wsh9p2v6-PL/image;s=400x300",
+   "created": "2026-11-04T20:42:51+01:00",
+   "valid_to": "2026-12-21T15:19:30+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 52153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1301,
+     1376,
+     1426
+    ],
+    "r60": [
+     1084,
+     1147,
+     1188
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1113619758",
@@ -20279,44 +20724,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1099765771",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-auris-gwarancja-kolor-perla-kamera-skory-klimatronik-CID5-ID1cqwjB.html",
-   "title": "Toyota Auris **GWARANCJA** kolor PERŁA *KAMERA* SKÓRY *klimatronik*",
-   "model": "Auris Hybrid",
-   "price": 39900,
-   "year": 2013,
-   "mileage": 189000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Kamień Krajeński",
-   "region": "Kujawsko-pomorskie",
-   "dist_km": 378,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/s63eg2w1g5ec2-PL/image;s=400x300",
-   "created": "2026-09-21T16:53:48+02:00",
-   "valid_to": "2026-11-21T09:21:18+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 49553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1236,
-     1311,
-     1361
-    ],
-    "r60": [
-     1030,
-     1093,
-     1134
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 39900
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1111970348",
@@ -20352,8 +20761,44 @@
    },
    "budget": "out",
    "first_seen": "2026-11-13T19:57:06+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1111018071",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-CID5-ID1dbIyj.html",
+   "title": "Toyota Auris",
+   "model": "Auris Hybrid",
+   "price": 36500,
+   "year": 2013,
+   "mileage": 170000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wierzbica",
+   "region": "Mazowieckie",
+   "dist_km": 182,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/lz99ds7jqla4-PL/image;s=400x300",
+   "created": "2026-11-09T22:02:52+01:00",
+   "valid_to": "2026-12-09T21:00:58+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 46153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1152,
+     1226,
+     1276
+    ],
+    "r60": [
+     960,
+     1022,
+     1064
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1112148395",
@@ -20369,7 +20814,7 @@
    "city": "Bydgoszcz",
    "region": "Kujawsko-pomorskie",
    "dist_km": 327,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/6mn4zb2ljtqo1-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/bic470o21xku1-PL/image;s=400x300",
    "created": "2026-11-14T16:57:54+01:00",
    "valid_to": "2026-12-14T16:56:50+01:00",
    "business": true,
@@ -20389,7 +20834,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1110349678",
@@ -20425,14 +20871,14 @@
    },
    "budget": "out",
    "first_seen": "2026-11-06T21:39:08+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
    "id": "olx-1112103450",
    "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-ekonomiczny-i-bezawaryjny-samochodzik-CID5-ID1dggUq.html",
-   "title": "Lexus CT Ekonomiczny i bezawaryjny samochodzik",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-po-serwisie-olej-filtry-olej-w-skrzyni-biegow-CID5-ID1dggUq.html",
+   "title": "Lexus CT Po serwisie olej filtry +olej w skrzyni biegów",
    "model": "Lexus CT",
    "price": 37900,
    "year": 2013,
@@ -20442,7 +20888,7 @@
    "city": "Fasty",
    "region": "Podlaskie",
    "dist_km": 426,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/cwmqqfqjpfie3-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/1tjmuie245a12-PL/image;s=400x300",
    "created": "2026-11-14T13:26:36+01:00",
    "valid_to": "2026-12-14T12:25:47+01:00",
    "business": false,
@@ -20462,7 +20908,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-15T15:43:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -20499,8 +20945,46 @@
    },
    "budget": "out",
    "first_seen": "2026-11-11T16:23:40+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1099765771",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-auris-gwarancja-kolor-perla-kamera-skory-klimatronik-CID5-ID1cqwjB.html",
+   "title": "Toyota Auris **GWARANCJA** kolor PERŁA *KAMERA* SKÓRY *klimatronik*",
+   "model": "Auris Hybrid",
+   "price": 39900,
+   "year": 2013,
+   "mileage": 189000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Kamień Krajeński",
+   "region": "Kujawsko-pomorskie",
+   "dist_km": 378,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/s63eg2w1g5ec2-PL/image;s=400x300",
+   "created": "2026-09-21T16:53:48+02:00",
+   "valid_to": "2026-11-21T09:21:18+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 49553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1236,
+     1311,
+     1361
+    ],
+    "r60": [
+     1030,
+     1093,
+     1134
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-16T21:59:52+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": 39900,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1108978193",
@@ -21410,7 +21894,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-05T22:08:19+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -21447,7 +21931,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-15T15:43:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -21484,8 +21968,45 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T21:59:52+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 38900
+  },
+  {
+   "id": "olx-1111457845",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/toyota-prius-v-2012-rok-pilne-CID5-ID1ddyXr.html",
+   "title": "Toyota prius V 2012 rok Pilne!",
+   "model": "Prius+",
+   "price": 39000,
+   "year": 2012,
+   "mileage": 260000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Ostrowiec Świętokrzyski",
+   "region": "Świętokrzyskie",
+   "dist_km": 183,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/crfvebukz1ap-PL/image;s=400x300",
+   "created": "2026-11-11T14:44:44+01:00",
+   "valid_to": "2026-12-11T14:58:28+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 48653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1214,
+     1289,
+     1339
+    ],
+    "r60": [
+     1012,
+     1074,
+     1116
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-11T16:23:40+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112379022",
@@ -21521,7 +22042,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1112458971",
@@ -21557,44 +22079,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
-  },
-  {
-   "id": "olx-1102458884",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct-200h-1-8-hybryda-CID5-ID1cBNUU.html",
-   "title": "Lexus CT Lexus CT 200h 1.8 hybryda",
-   "model": "Lexus CT",
-   "price": 37500,
-   "year": 2012,
-   "mileage": 222000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Sierakośce",
-   "region": "Podkarpackie",
-   "dist_km": 276,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/srf4o3ybbiw73-PL/image;s=400x300",
-   "created": "2026-10-03T13:35:39+02:00",
-   "valid_to": "2026-12-02T19:54:07+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 47153,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1177,
-     1251,
-     1301
-    ],
-    "r60": [
-     980,
-     1043,
-     1084
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-16T22:04:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 37900
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1111922029",
@@ -21630,44 +22116,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-13T19:57:06+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
-  },
-  {
-   "id": "olx-1103655972",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-CID5-ID1cGPkM.html",
-   "title": "Lexus CT",
-   "model": "Lexus CT",
-   "price": 33000,
-   "year": 2012,
-   "mileage": 232000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Radom",
-   "region": "Mazowieckie",
-   "dist_km": 195,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/og40c40ryzt4-PL/image;s=400x300",
-   "created": "2026-10-09T10:41:55+02:00",
-   "valid_to": "2026-12-11T13:56:06+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 42653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1064,
-     1139,
-     1189
-    ],
-    "r60": [
-     887,
-     949,
-     991
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
   },
   {
    "id": "olx-1113680638",
@@ -21683,7 +22133,7 @@
    "city": "Warszawa",
    "region": "Mazowieckie",
    "dist_km": 252,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/j0xyftz3j5s1-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/uwbaklb1l4761-PL/image;s=400x300",
    "created": "2026-11-20T15:31:40+01:00",
    "valid_to": "2026-12-20T14:30:30+01:00",
    "business": false,
@@ -21703,7 +22153,81 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1102458884",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct-200h-1-8-hybryda-CID5-ID1cBNUU.html",
+   "title": "Lexus CT Lexus CT 200h 1.8 hybryda",
+   "model": "Lexus CT",
+   "price": 37500,
+   "year": 2012,
+   "mileage": 222000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Sierakośce",
+   "region": "Podkarpackie",
+   "dist_km": 276,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/srf4o3ybbiw73-PL/image;s=400x300",
+   "created": "2026-10-03T13:35:39+02:00",
+   "valid_to": "2026-12-02T19:54:07+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 47153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1177,
+     1251,
+     1301
+    ],
+    "r60": [
+     980,
+     1043,
+     1084
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-16T22:04:25+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 37900
+  },
+  {
+   "id": "olx-1113743431",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/bezwypadkowy-lexus-ct-w-super-stanie-CID5-ID1dn9xJ.html",
+   "title": "Bezwypadkowy Lexus CT w super stanie",
+   "model": "Lexus CT",
+   "price": 41000,
+   "year": 2012,
+   "mileage": 260000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Grodzisk Mazowiecki",
+   "region": "Mazowieckie",
+   "dist_km": 233,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/346izo1qskda3-PL/image;s=400x300",
+   "created": "2026-11-20T20:44:07+01:00",
+   "valid_to": "2026-12-21T20:40:34+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 50653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1264,
+     1339,
+     1389
+    ],
+    "r60": [
+     1053,
+     1116,
+     1157
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-21T21:44:29+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1107110608",
@@ -21739,7 +22263,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-04T12:19:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -21776,7 +22300,82 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "olx-1112288369",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-200h-1-8-hybrid-2012-skora-kamera-szyberdach-CID5-ID1dh30Z.html",
+   "title": "Lexus CT 200h 1.8 Hybrid | 2012 | Skóra | Kamera | Szyberdach",
+   "model": "Lexus CT",
+   "price": 33500,
+   "year": 2012,
+   "mileage": 306483,
+   "fuel": "Benzyna",
+   "lpg": false,
+   "city": "Lulkowo",
+   "region": "Kujawsko-pomorskie",
+   "dist_km": 316,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/2wqi2lm1622o-PL/image;s=400x300",
+   "created": "2026-11-15T13:17:01+01:00",
+   "valid_to": "2026-12-15T13:18:30+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 43153,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1077,
+     1152,
+     1202
+    ],
+    "r60": [
+     897,
+     960,
+     1001
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-15T15:43:57+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 35000
+  },
+  {
+   "id": "olx-1103655972",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-CID5-ID1cGPkM.html",
+   "title": "Lexus CT",
+   "model": "Lexus CT",
+   "price": 33000,
+   "year": 2012,
+   "mileage": 232000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Radom",
+   "region": "Mazowieckie",
+   "dist_km": 195,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/og40c40ryzt4-PL/image;s=400x300",
+   "created": "2026-10-09T10:41:55+02:00",
+   "valid_to": "2026-12-11T13:56:06+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 42653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1064,
+     1139,
+     1189
+    ],
+    "r60": [
+     887,
+     949,
+     991
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1109922047",
@@ -21813,82 +22412,8 @@
    "budget": "out",
    "first_seen": "2026-11-04T19:56:22+00:00",
    "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1112288369",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-200h-1-8-hybrid-2012-skora-kamera-szyberdach-CID5-ID1dh30Z.html",
-   "title": "Lexus CT 200h 1.8 Hybrid | 2012 | Skóra | Kamera | Szyberdach",
-   "model": "Lexus CT",
-   "price": 35000,
-   "year": 2012,
-   "mileage": 306483,
-   "fuel": "Benzyna",
-   "lpg": false,
-   "city": "Lulkowo",
-   "region": "Kujawsko-pomorskie",
-   "dist_km": 316,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/2wqi2lm1622o-PL/image;s=400x300",
-   "created": "2026-11-15T13:17:01+01:00",
-   "valid_to": "2026-12-15T13:18:30+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 44653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1114,
-     1189,
-     1239
-    ],
-    "r60": [
-     928,
-     991,
-     1032
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-15T15:43:57+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
-   "id": "olx-1111457845",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/toyota-prius-v-2012-rok-pilne-CID5-ID1ddyXr.html",
-   "title": "Toyota prius V 2012 rok Pilne!",
-   "model": "Prius+",
-   "price": 39000,
-   "year": 2012,
-   "mileage": 260000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Ostrowiec Świętokrzyski",
-   "region": "Świętokrzyskie",
-   "dist_km": 183,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/crfvebukz1ap-PL/image;s=400x300",
-   "created": "2026-11-11T14:44:44+01:00",
-   "valid_to": "2026-12-11T14:58:28+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 48653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1214,
-     1289,
-     1339
-    ],
-    "r60": [
-     1012,
-     1074,
-     1116
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-11T16:23:40+00:00",
-   "last_seen": "2026-11-19T23:07:52+00:00",
    "prev_price": null,
-   "missing_since": "2026-11-20T17:02:27+00:00"
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1105869352",
@@ -22347,43 +22872,6 @@
    "missing_since": "2026-10-17T15:44:41+00:00"
   },
   {
-   "id": "olx-1112877954",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-tytul-ogloszenia-lexus-ct-200h-2011r-bezwypadkowy-po-serwisie-bat-CID5-ID1djvoq.html",
-   "title": "Lexus CT Tytuł ogłoszenia: Lexus CT 200h 2011r | Bezwypadkowy | Po serwisie bat",
-   "model": "Lexus CT",
-   "price": 33900,
-   "year": 2011,
-   "mileage": 253000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Wieniawa",
-   "region": "Mazowieckie",
-   "dist_km": 175,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ofdcdkd8f0ti1-PL/image;s=400x300",
-   "created": "2026-11-17T19:29:46+01:00",
-   "valid_to": "2026-12-17T18:28:38+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 43553,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1087,
-     1162,
-     1211
-    ],
-    "r60": [
-     906,
-     968,
-     1010
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-11-18T07:44:53+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": null
-  },
-  {
    "id": "olx-1113688950",
    "src": "OLX",
    "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct-200h-CID5-ID1dmWn0.html",
@@ -22417,7 +22905,8 @@
    },
    "budget": "out",
    "first_seen": "2026-11-20T17:02:27+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00"
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": null
   },
   {
    "id": "olx-1107482372",
@@ -22453,45 +22942,8 @@
    },
    "budget": "out",
    "first_seen": "2026-10-25T13:16:31+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
-  },
-  {
-   "id": "olx-1107148593",
-   "src": "OLX",
-   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct200h-100-oryg-lakier-org-przebieg-pelna-historia-aso-CID5-ID1cWtWn.html",
-   "title": "Lexus CT Lexus CT200h | 100% Oryg. Lakier | Org. Przebieg | Pełna Historia ASO",
-   "model": "Lexus CT",
-   "price": 40000,
-   "year": 2011,
-   "mileage": 236000,
-   "fuel": "CNG i Hybryda",
-   "lpg": false,
-   "city": "Wrocław",
-   "region": "Dolnośląskie",
-   "dist_km": 175,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/iwzz1fi73pyj1-PL/image;s=400x300",
-   "created": "2026-10-23T12:28:48+02:00",
-   "valid_to": "2026-11-22T09:51:32+01:00",
-   "business": false,
-   "koszt": {
-    "koszt": 49653,
-    "lpg_doliczone": 5000,
-    "r48": [
-     1239,
-     1314,
-     1364
-    ],
-    "r60": [
-     1032,
-     1095,
-     1136
-    ]
-   },
-   "budget": "out",
-   "first_seen": "2026-10-23T13:37:03+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
-   "prev_price": 41000
   },
   {
    "id": "olx-1093041267",
@@ -22507,9 +22959,9 @@
    "city": "Bierwiecka Wola",
    "region": "Mazowieckie",
    "dist_km": 207,
-   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/8d2qlb6ak9av1-PL/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ivrnvkwxb41h-PL/image;s=400x300",
    "created": "2026-08-22T10:04:42+02:00",
-   "valid_to": "2026-11-21T13:04:16+01:00",
+   "valid_to": "2026-12-21T14:57:05+01:00",
    "business": true,
    "koszt": {
     "koszt": 44553,
@@ -22527,7 +22979,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T22:04:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 40900
   },
   {
@@ -22564,7 +23016,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-12T16:54:47+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -22601,8 +23053,45 @@
    },
    "budget": "out",
    "first_seen": "2026-11-13T19:57:06+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1107148593",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-lexus-ct200h-100-oryg-lakier-org-przebieg-pelna-historia-aso-CID5-ID1cWtWn.html",
+   "title": "Lexus CT Lexus CT200h | 100% Oryg. Lakier | Org. Przebieg | Pełna Historia ASO",
+   "model": "Lexus CT",
+   "price": 40000,
+   "year": 2011,
+   "mileage": 236000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wrocław",
+   "region": "Dolnośląskie",
+   "dist_km": 175,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/iwzz1fi73pyj1-PL/image;s=400x300",
+   "created": "2026-10-23T12:28:48+02:00",
+   "valid_to": "2026-11-22T09:51:32+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 49653,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1239,
+     1314,
+     1364
+    ],
+    "r60": [
+     1032,
+     1095,
+     1136
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-10-23T13:37:03+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
+   "prev_price": 41000
   },
   {
    "id": "olx-1111518059",
@@ -22638,7 +23127,7 @@
    },
    "budget": "out",
    "first_seen": "2026-11-11T22:53:20+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
   },
   {
@@ -22675,7 +23164,7 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T22:04:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": 40999
   },
   {
@@ -22712,8 +23201,46 @@
    },
    "budget": "out",
    "first_seen": "2026-10-16T22:04:25+00:00",
-   "last_seen": "2026-11-20T17:02:27+00:00",
+   "last_seen": "2026-11-21T21:44:29+00:00",
    "prev_price": null
+  },
+  {
+   "id": "olx-1112877954",
+   "src": "OLX",
+   "url": "https://www.olx.pl/d/oferta/lexus-ct-tytul-ogloszenia-lexus-ct-200h-2011r-bezwypadkowy-po-serwisie-bat-CID5-ID1djvoq.html",
+   "title": "Lexus CT Tytuł ogłoszenia: Lexus CT 200h 2011r | Bezwypadkowy | Po serwisie bat",
+   "model": "Lexus CT",
+   "price": 33900,
+   "year": 2011,
+   "mileage": 253000,
+   "fuel": "CNG i Hybryda",
+   "lpg": false,
+   "city": "Wieniawa",
+   "region": "Mazowieckie",
+   "dist_km": 175,
+   "img": "https://ireland.apollo.olxcdn.com:443/v1/files/ofdcdkd8f0ti1-PL/image;s=400x300",
+   "created": "2026-11-17T19:29:46+01:00",
+   "valid_to": "2026-12-17T18:28:38+01:00",
+   "business": false,
+   "koszt": {
+    "koszt": 43553,
+    "lpg_doliczone": 5000,
+    "r48": [
+     1087,
+     1162,
+     1211
+    ],
+    "r60": [
+     906,
+     968,
+     1010
+    ]
+   },
+   "budget": "out",
+   "first_seen": "2026-11-18T07:44:53+00:00",
+   "last_seen": "2026-11-20T17:02:27+00:00",
+   "prev_price": null,
+   "missing_since": "2026-11-21T21:44:29+00:00"
   },
   {
    "id": "olx-1106444783",
