@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-27T01:12:46+00:00",
+ "generated_at": "2026-11-27T15:37:29+00:00",
  "source": "OTOMOTO (scraper)",
- "count": 61,
+ "count": 62,
  "cost_model": {
   "baza": 4653,
   "lpg": 5000
@@ -156,7 +156,8 @@
    "budget": "in",
    "first_seen": "2026-10-17T19:46:45+00:00",
    "last_seen": "2026-11-27T01:12:46+00:00",
-   "prev_price": 19900
+   "prev_price": 19900,
+   "missing_since": "2026-11-27T15:37:29+00:00"
   },
   {
    "id": "oto-6151143831",
@@ -235,6 +236,42 @@
    "missing_since": "2026-10-20T10:27:55+00:00"
   },
   {
+   "id": "oto-6151914502",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IkNZs.html",
+   "title": "Toyota Prius (Hybrid) Executive",
+   "model": "Prius",
+   "price": 22999,
+   "year": 2012,
+   "mileage": 290000,
+   "fuel": "hybrid",
+   "lpg": false,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjF1MWc1OGlzYmQwajMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.530jxftrG7pViDbaAL-38BoZInhdpfMZHm4mzK5SQMs/image;s=400x300",
+   "created": "2026-11-27T12:59:46Z",
+   "valid_to": null,
+   "business": false,
+   "koszt": {
+    "koszt": 32652,
+    "lpg_doliczone": 5000,
+    "r48": [
+     815,
+     890,
+     939
+    ],
+    "r60": [
+     679,
+     741,
+     783
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-11-27T15:37:29+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00"
+  },
+  {
    "id": "oto-6151414786",
    "src": "OTOMOTO",
    "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IiHZv.html",
@@ -269,7 +306,8 @@
    "budget": "in",
    "first_seen": "2026-10-29T11:48:17+00:00",
    "last_seen": "2026-11-27T01:12:46+00:00",
-   "prev_price": null
+   "prev_price": null,
+   "missing_since": "2026-11-27T15:37:29+00:00"
   },
   {
    "id": "oto-6151121552",
@@ -385,43 +423,6 @@
    "missing_since": "2026-10-18T09:56:31+00:00"
   },
   {
-   "id": "oto-6151702621",
-   "src": "OTOMOTO",
-   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IjUS1.html",
-   "title": "Toyota Prius (Hybrid) Life",
-   "model": "Prius",
-   "price": 22900,
-   "year": 2011,
-   "mileage": 332270,
-   "fuel": "hybrid",
-   "lpg": true,
-   "city": "",
-   "region": "",
-   "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImFpZDA0aGg5dnpyMS1PVE9NT1RPUEwiLCJ3IjpbeyJmbiI6IndnNGducXA2eTFmLU9UT01PVE9QTCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.q1Uuyn1U1QXjgLWPfBFH-95fXbcXR7X_49Uh7Czhpyo/image;s=400x300",
-   "created": "2026-11-25T08:42:00Z",
-   "valid_to": null,
-   "business": true,
-   "koszt": {
-    "koszt": 27553,
-    "lpg_doliczone": 0,
-    "r48": [
-     688,
-     762,
-     812
-    ],
-    "r60": [
-     573,
-     635,
-     677
-    ]
-   },
-   "budget": "in",
-   "first_seen": "2026-11-15T13:00:24+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
-   "prev_price": null
-  },
-  {
    "id": "oto-6151876757",
    "src": "OTOMOTO",
    "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IkEaF.html",
@@ -455,7 +456,44 @@
    },
    "budget": "in",
    "first_seen": "2026-11-26T15:49:08+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
+   "prev_price": null
+  },
+  {
+   "id": "oto-6151702621",
+   "src": "OTOMOTO",
+   "url": "https://www.otomoto.pl/osobowe/oferta/toyota-prius-ID6IjUS1.html",
+   "title": "Toyota Prius (Hybrid) Life",
+   "model": "Prius",
+   "price": 22900,
+   "year": 2011,
+   "mileage": 332270,
+   "fuel": "hybrid",
+   "lpg": true,
+   "city": "",
+   "region": "",
+   "dist_km": null,
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImFpZDA0aGg5dnpyMS1PVE9NT1RPUEwiLCJ3IjpbeyJmbiI6IndnNGducXA2eTFmLU9UT01PVE9QTCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.q1Uuyn1U1QXjgLWPfBFH-95fXbcXR7X_49Uh7Czhpyo/image;s=400x300",
+   "created": "2026-11-25T08:42:00Z",
+   "valid_to": null,
+   "business": true,
+   "koszt": {
+    "koszt": 27553,
+    "lpg_doliczone": 0,
+    "r48": [
+     688,
+     762,
+     812
+    ],
+    "r60": [
+     573,
+     635,
+     677
+    ]
+   },
+   "budget": "in",
+   "first_seen": "2026-11-15T13:00:24+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -492,7 +530,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-25T16:05:49+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -794,7 +832,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -831,7 +869,7 @@
    },
    "budget": "in",
    "first_seen": "2026-11-18T23:38:26+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -1323,7 +1361,8 @@
    },
    "budget": "near",
    "first_seen": "2026-11-27T01:12:46+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00"
+   "last_seen": "2026-11-27T15:37:29+00:00",
+   "prev_price": null
   },
   {
    "id": "oto-6151384676",
@@ -1472,7 +1511,7 @@
    },
    "budget": "near",
    "first_seen": "2026-10-30T21:45:06+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -1489,7 +1528,7 @@
    "city": "",
    "region": "",
    "dist_km": null,
-   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjdhdmIwdGdwYWQ0eDEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.1SvTiwie0LmYTT7PbNTmbGyiwIrv46Ld0p9qPVd73zY/image;s=400x300",
+   "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ijlibzc4cTY5MGlmNDMtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.7YQiC7xQfVOZ0Ar62M5j6WfUvJuM4yZUQypi_rfj_GI/image;s=400x300",
    "created": "2026-11-25T16:58:00Z",
    "valid_to": null,
    "business": false,
@@ -1509,7 +1548,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-18T00:00:46+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": 27500
   },
   {
@@ -1926,7 +1965,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-19T14:44:21+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -1963,7 +2002,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-09T14:22:52+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": 26900
   },
   {
@@ -2000,7 +2039,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-16T14:02:27+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": null
   },
   {
@@ -2037,7 +2076,7 @@
    },
    "budget": "near",
    "first_seen": "2026-11-13T13:28:31+00:00",
-   "last_seen": "2026-11-27T01:12:46+00:00",
+   "last_seen": "2026-11-27T15:37:29+00:00",
    "prev_price": 22800
   },
   {
